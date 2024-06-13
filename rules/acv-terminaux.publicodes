@@ -30,6 +30,7 @@ acv . smartphone . carbone . fin de vie:
 acv . smartphone . eau . fin de vie:
   formule: 58300
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . smartphone . durée de vie théorique:
   formule: 2.5
   unité: an
@@ -70,6 +71,7 @@ acv . tablette . carbone . fin de vie:
 acv . tablette . eau . fin de vie:
   formule: 61500
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . tablette . durée de vie théorique:
   formule: 3
   unité: an
@@ -110,6 +112,7 @@ acv . ordinateur portable . carbone . fin de vie:
 acv . ordinateur portable . eau . fin de vie:
   formule: 638400
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . ordinateur portable . durée de vie théorique:
   formule: 5
   unité: an
@@ -150,6 +153,7 @@ acv . TV . carbone . fin de vie:
 acv . TV . eau . fin de vie:
   formule: 1316400
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . TV . durée de vie théorique:
   formule: 8
   unité: an
@@ -190,6 +194,7 @@ acv . ordinateur fixe . carbone . fin de vie:
 acv . ordinateur fixe . eau . fin de vie:
   formule: 2070000
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . ordinateur fixe . durée de vie théorique:
   formule: 6
   unité: an
@@ -230,6 +235,7 @@ acv . écran . carbone . fin de vie:
 acv . écran . eau . fin de vie:
   formule: 677200
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . écran . durée de vie théorique:
   formule: 6
   unité: an
@@ -271,7 +277,9 @@ acv . casque . carbone . fin de vie:
 acv . casque . eau . fin de vie:
   formule: -23600
   unité: l
-  note: Curieux cette valeur négative, la seule parmi les appareils ici.
+  note: |
+    Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
+    Curieux cette valeur négative, la seule parmi les appareils ici.
 acv . casque . durée de vie théorique:
   formule: 5
   unité: an
@@ -311,6 +319,7 @@ acv . enceinte . carbone . fin de vie:
 acv . enceinte . eau . fin de vie:
   formule: 112000
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . enceinte . durée de vie théorique:
   formule: 5
   unité: an
@@ -349,6 +358,7 @@ acv . console de salon . carbone . fin de vie:
 acv . console de salon . eau . fin de vie:
   formule: 907000
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . console de salon . durée de vie théorique:
   formule: 6
   unité: an
@@ -387,6 +397,7 @@ acv . console portable . carbone . fin de vie:
 acv . console portable . eau . fin de vie:
   formule: 112000
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . console portable . durée de vie théorique:
   formule: 6
   unité: an
@@ -425,6 +436,7 @@ acv . imprimante . carbone . fin de vie:
 acv . imprimante . eau . fin de vie:
   formule: 2400000
   unité: l
+  note: Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.
 acv . imprimante . durée de vie théorique:
   formule: 5
   unité: an
