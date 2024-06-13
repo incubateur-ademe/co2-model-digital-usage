@@ -21,9 +21,6 @@ acv . smartphone . carbone . distribution:
 acv . smartphone . eau . distribution:
   formule: 10
   unité: l
-acv . smartphone . carbone . usage julia:
-  formule: 600
-  unité: gCO2e
 acv . smartphone . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
@@ -64,9 +61,6 @@ acv . tablette . carbone . distribution:
 acv . tablette . eau . distribution:
   formule: 20
   unité: l
-acv . tablette . carbone . usage julia:
-  formule: 3200
-  unité: gCO2e
 acv . tablette . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
@@ -107,9 +101,6 @@ acv . ordinateur portable . carbone . distribution:
 acv . ordinateur portable . eau . distribution:
   formule: 60
   unité: l
-acv . ordinateur portable . carbone . usage julia:
-  formule: 8300
-  unité: gCO2e
 acv . ordinateur portable . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
@@ -150,9 +141,6 @@ acv . TV . carbone . distribution:
 acv . TV . eau . distribution:
   formule: 10
   unité: l
-acv . TV . carbone . usage julia:
-  formule: 92700
-  unité: gCO2e
 acv . TV . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
@@ -193,9 +181,6 @@ acv . ordinateur fixe . carbone . distribution:
 acv . ordinateur fixe . eau . distribution:
   formule: 10
   unité: l
-acv . ordinateur fixe . carbone . usage julia:
-  formule: 34100
-  unité: gCO2e
 acv . ordinateur fixe . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
@@ -236,9 +221,6 @@ acv . écran . carbone . distribution:
 acv . écran . eau . distribution:
   formule: 5
   unité: l
-acv . écran . carbone . usage julia:
-  formule: 23900
-  unité: gCO2e
 acv . écran . carbone . usage théorique:
   formule: consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique
   unité: gCO2e
