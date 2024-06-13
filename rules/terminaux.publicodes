@@ -84,7 +84,7 @@ usage réel . région:
   par défaut: "'France'"
 
 usage réel . consommation électricité:
-  formule: durée en heure par défaut * consommation électricité par heure / 1000
+  formule: durée en heure par défaut * consommation électricité par heure / 1000 Wh/kWh
   unité: kWh
 
 usage réel . consommation électricité par heure:
@@ -116,7 +116,7 @@ appareil par défaut:
   par défaut: "'moyenne'"
 durée en heure par défaut:
   par défaut: 0
-  unité: heure
+  unité: h
 moyenne utilisation ordinateur et écran par défaut:
   par défaut: 0%
 moyenne utilisation ordinateur portable par défaut:
@@ -135,7 +135,7 @@ smartphone . construction:
 
 smartphone . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 smartphone . durée de vie:
   titre: Durée de vie smartphone
@@ -146,7 +146,7 @@ smartphone . durée de vie:
 smartphone . profil utilisation:
   titre: Profil d'utilisation smartphone
   question: Quelle est le profil d'utilisation du smartphone ?
-  unité: heure/jour
+  unité: h/jour
   par défaut: acv . smartphone . profil utilisation théorique
 
 tablette:
@@ -156,7 +156,7 @@ tablette . construction:
 
 tablette . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 tablette . durée de vie:
   titre: Durée de vie tablette
@@ -167,7 +167,7 @@ tablette . durée de vie:
 tablette . profil utilisation:
   titre: Profil d'utilisation tablette
   question: Quelle est le profil d'utilisation de la tablette ?
-  unité: heure/jour
+  unité: h/jour
   par défaut: acv . tablette . profil utilisation théorique
 
 ordinateur portable:
@@ -177,7 +177,7 @@ ordinateur portable . construction:
 
 ordinateur portable . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h.an
 
 ordinateur portable . durée de vie:
   titre: Durée de vie ordinateur portable
@@ -188,7 +188,7 @@ ordinateur portable . durée de vie:
 ordinateur portable . profil utilisation:
   titre: Profil d'utilisation ordinateur portable
   question: Quelle est le profil d'utilisation de l'ordinateur portable ?
-  unité: heure/jour
+  unité: h/jour
   par défaut: acv . ordinateur portable . profil utilisation théorique
 
 TV:
@@ -198,7 +198,7 @@ TV . construction:
 
 TV . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 TV . durée de vie:
   titre: Durée de vie TV
@@ -209,7 +209,7 @@ TV . durée de vie:
 TV . profil utilisation:
   titre: Profil d'utilisation TV
   question: Quelle est le profil d'utilisation de la TV ?
-  unité: heure/jour
+  unité: h/jour
   par défaut: acv . TV . profil utilisation théorique
 
 ordinateur fixe:
@@ -232,7 +232,7 @@ ordinateur et écran . construction:
 
 ordinateur et écran . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 ordinateur et écran . durée de vie:
   titre: Durée de vie ordinateur et écran
@@ -246,7 +246,7 @@ ordinateur et écran . durée de vie:
 ordinateur et écran . profil utilisation:
   titre: Profil d'utilisation ordinateur et écran
   question: Quelle est le profil d'utilisation de l'ordinateur et écran ?
-  unité: heure/jour
+  unité: h/jour
   par défaut: ordinateur et écran . profil utilisation théorique
 
 ordinateur et écran . profil utilisation théorique:
@@ -254,7 +254,7 @@ ordinateur et écran . profil utilisation théorique:
     moyenne:
       - acv . ordinateur fixe . profil utilisation théorique
       - acv . écran . profil utilisation théorique
-  unité: heure/jour
+  unité: h/jour
 
 ordinateur et écran . consommation en mode actif:
   formule:

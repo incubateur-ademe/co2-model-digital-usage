@@ -92,13 +92,15 @@ construction data center:
 
 construction data center . serveur:
   formule: facteur d'allocation * serveur . construction
-
+  unité: gCO2e
+  
 construction data center . serveur . facteur d'allocation:
   formule: 0
   note: A remplacer dans le recalcul
 
 construction data center . firewall:
   formule: facteur d'allocation * firewall . construction
+  unité: gCO2e
 
 construction data center . firewall . facteur d'allocation:
   formule: 0.0358 * serveur . facteur d'allocation
@@ -106,6 +108,7 @@ construction data center . firewall . facteur d'allocation:
 
 construction data center . switch:
   formule: facteur d'allocation * switch . construction
+  unité: gCO2e
 
 construction data center . switch . facteur d'allocation:
   formule: 1.468 * serveur . facteur d'allocation
@@ -113,7 +116,8 @@ construction data center . switch . facteur d'allocation:
 
 construction data center . routeur:
   formule: facteur d'allocation * routeur . construction
-
+  unité: gCO2e
+  
 construction data center . routeur . facteur d'allocation:
   formule: 0.286 * serveur . facteur d'allocation
   référence: considérant 0,286 routeurs par serveur (données APL Datacenter basées sur une moyenne du marché)
@@ -128,6 +132,7 @@ construction data center . stockage . facteur d'allocation:
 
 construction data center . équipements support:
   formule: facteur d'allocation * équipements support . construction
+  unité: gCO2e
 
 construction data center . équipements support . facteur d'allocation:
   formule: 0.68 m2 * serveur . facteur d'allocation * serveur . durée de vie / équipements support . durée de vie

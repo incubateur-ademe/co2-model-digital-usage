@@ -84,7 +84,7 @@ acv . tablette . consommation en mode actif:
   unité: Wh
 acv . tablette . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . tablette . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -127,7 +127,7 @@ acv . ordinateur portable . consommation en mode actif:
   unité: Wh
 acv . ordinateur portable . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . ordinateur portable . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -170,7 +170,7 @@ acv . TV . consommation en mode actif:
   unité: Wh
 acv . TV . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . TV . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -213,7 +213,7 @@ acv . ordinateur fixe . consommation en mode actif:
   unité: Wh
 acv . ordinateur fixe . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . ordinateur fixe . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -256,7 +256,7 @@ acv . écran . consommation en mode actif:
   unité: Wh
 acv . écran . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . écran . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -298,7 +298,7 @@ acv . casque . consommation en mode actif:
   unité: Wh
 acv . casque . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . casque . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -337,7 +337,7 @@ acv . enceinte . consommation en mode actif:
   unité: Wh
 acv . enceinte . profil utilisation théorique:
   formule: 3
-  unité: heure/jour
+  unité: h/jour
 acv . enceinte . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -375,7 +375,7 @@ acv . console de salon . consommation en mode actif:
   unité: Wh
 acv . console de salon . profil utilisation théorique:
   formule: 1
-  unité: heure/jour
+  unité: h/jour
 acv . console de salon . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -413,7 +413,7 @@ acv . console portable . consommation en mode actif:
   unité: Wh
 acv . console portable . profil utilisation théorique:
   formule: 1
-  unité: heure/jour
+  unité: h/jour
 acv . console portable . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
@@ -451,7 +451,7 @@ acv . imprimante . consommation en mode actif:
   unité: Wh
 acv . imprimante . profil utilisation théorique:
   formule: 1
-  unité: heure/jour
+  unité: h/jour
 acv . imprimante . consommation annuelle:
   formule: consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000
   unité: kWh
