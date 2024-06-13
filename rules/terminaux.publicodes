@@ -131,7 +131,11 @@ moyenne utilisation TV par défaut:
 
 smartphone:
 smartphone . construction:
-  formule: acv . smartphone . carbone . fabrication + acv . smartphone . carbone . distribution
+  formule: 
+    somme:
+      - acv . smartphone . carbone . fabrication
+      - acv . smartphone . carbone . distribution
+      - acv . smartphone . carbone . fin de vie
   unité: gCO2e
 
 smartphone . durée d'usage:
@@ -152,7 +156,11 @@ smartphone . profil utilisation:
 
 tablette:
 tablette . construction:
-  formule: acv . tablette . carbone . fabrication + acv . tablette . carbone . distribution
+  formule: 
+    somme:
+      - acv . tablette . carbone . fabrication
+      - acv . tablette . carbone . distribution
+      - acv . tablette . carbone . fin de vie
   unité: gCO2e
 
 tablette . durée d'usage:
@@ -173,7 +181,11 @@ tablette . profil utilisation:
 
 ordinateur portable:
 ordinateur portable . construction:
-  formule: acv . ordinateur portable . carbone . fabrication + acv . ordinateur portable . carbone . distribution
+  formule: 
+    somme:
+      - acv . ordinateur portable . carbone . fabrication
+      - acv . ordinateur portable . carbone . distribution
+      - acv . ordinateur portable . carbone . fin de vie
   unité: gCO2e
 
 ordinateur portable . durée d'usage:
@@ -194,7 +206,11 @@ ordinateur portable . profil utilisation:
 
 TV:
 TV . construction:
-  formule: acv . TV . carbone . fabrication + acv . TV . carbone . distribution
+  formule:
+    somme:
+      - acv . TV . carbone . fabrication
+      - acv . TV . carbone . distribution
+      - acv . TV . carbone . fin de vie
   unité: gCO2e
 
 TV . durée d'usage:
@@ -215,12 +231,20 @@ TV . profil utilisation:
 
 ordinateur fixe:
 ordinateur fixe . construction:
-  formule: acv . ordinateur fixe . carbone . fabrication + acv . ordinateur fixe . carbone . distribution
+  formule:
+    somme:
+      - acv . ordinateur fixe . carbone . fabrication
+      - acv . ordinateur fixe . carbone . distribution
+      - acv . ordinateur fixe . carbone . fin de vie
   unité: gCO2e
 
 écran:
 écran . construction:
-  formule: acv . écran . carbone . fabrication + acv . écran . carbone . distribution
+  formule:
+    somme:
+      - acv . écran . carbone . fabrication
+      - acv . écran . carbone . distribution
+      - acv . écran . carbone . fin de vie
   unité: gCO2e
 
 ordinateur et écran:
