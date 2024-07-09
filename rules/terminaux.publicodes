@@ -1,9 +1,10 @@
 importer!:
   depuis:
-    nom: "@incubateur-ademe/publicodes-commun"
+    nom: '@incubateur-ademe/publicodes-commun'
     url: https://github.com/incubateur-ademe/publicodes-commun
   les règles:
-    - jours par an
+    - jours par an:
+        unité: jour/an
 
 construction réelle:
   formule:
@@ -21,9 +22,7 @@ construction réelle:
       - si: appareil par défaut = 'moyenne'
         alors: moyenne
   reference: |
-    Les données relatives à la construction et l'amortissement des appareils sont tirés 
-    de [cette étude](https://librairie.ademe.fr/dechets-economie-circulaire/1189-modelisation-et-evaluation-des-impacts-environnementaux-de-produits-de-consommation-et-biens-d-equipement.html)
-    (facteurs d'émission, durée de vie)
+    Les données relatives à la construction et l'amortissement des appareils sont tirées du dernier excel Negaoctet disponible dans la Base Impact.
   unité: gCO2e
 
 construction réelle . moyenne:
@@ -86,39 +85,39 @@ usage réel . région:
   par défaut: "'France'"
 
 usage réel . consommation électricité:
-  formule: durée en heure par défaut * consommation électricité par heure / 1000
+  formule: consommation électricité par heure * durée en heure par défaut / 1000 W.h/kWh
   unité: kWh
 
 usage réel . consommation électricité par heure:
   formule:
     variations:
       - si: appareil par défaut = 'smartphone'
-        alors: smartphone . consommation en mode actif
+        alors: acv . smartphone . consommation en mode actif
       - si: appareil par défaut = 'tablette'
-        alors: tablette . consommation en mode actif
+        alors: acv . tablette . consommation en mode actif
       - si: appareil par défaut = 'ordinateur portable'
-        alors: ordinateur portable . consommation en mode actif
+        alors: acv . ordinateur portable . consommation en mode actif
       - si: appareil par défaut = 'ordinateur et écran'
         alors: ordinateur et écran . consommation en mode actif
       - si: appareil par défaut = 'TV'
-        alors: TV . consommation en mode actif
+        alors: acv . TV . consommation en mode actif
       - sinon: consommation en mode actif moyenne
-  unité: Wh
+  unité: W
 
 usage réel . consommation en mode actif moyenne:
   formule:
     somme:
       - moyenne utilisation ordinateur et écran par défaut * ordinateur et écran . consommation en mode actif
-      - moyenne utilisation ordinateur portable par défaut * ordinateur portable . consommation en mode actif
-      - moyenne utilisation tablette par défaut * tablette . consommation en mode actif
-      - moyenne utilisation smartphone par défaut * smartphone . consommation en mode actif
-      - moyenne utilisation TV par défaut * TV . consommation en mode actif
+      - moyenne utilisation ordinateur portable par défaut * acv . ordinateur portable . consommation en mode actif
+      - moyenne utilisation tablette par défaut * acv . tablette . consommation en mode actif
+      - moyenne utilisation smartphone par défaut * acv . smartphone . consommation en mode actif
+      - moyenne utilisation TV par défaut * acv . TV . consommation en mode actif
 
 appareil par défaut:
   par défaut: "'moyenne'"
 durée en heure par défaut:
   par défaut: 0
-  unité: heure
+  unité: h
 moyenne utilisation ordinateur et écran par défaut:
   par défaut: 0%
 moyenne utilisation ordinateur portable par défaut:
@@ -132,161 +131,121 @@ moyenne utilisation TV par défaut:
 
 smartphone:
 smartphone . construction:
-  formule: 30526
+  formule: 
+    somme:
+      - acv . smartphone . carbone . fabrication
+      - acv . smartphone . carbone . distribution
+      - acv . smartphone . carbone . fin de vie
   unité: gCO2e
 
 smartphone . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 smartphone . durée de vie:
   titre: Durée de vie smartphone
   question: Quelle est la durée de vie du smartphone ?
   unité: an
-  par défaut: smartphone . durée de vie par défaut
-
-smartphone . durée de vie par défaut:
-  par défaut: 4
-  unité: an
+  par défaut: acv . smartphone . durée de vie théorique
 
 smartphone . profil utilisation:
   titre: Profil d'utilisation smartphone
   question: Quelle est le profil d'utilisation du smartphone ?
-  unité: heure/jour
-  par défaut: smartphone . profil utilisation par défaut
-
-smartphone . profil utilisation par défaut:
-  formule: 3
-  unité: heure/jour
-
-smartphone . consommation en mode actif:
-  formule: 5.6
-  unité: Wh
+  unité: h/jour
+  par défaut: acv . smartphone . profil utilisation théorique
 
 tablette:
 tablette . construction:
-  formule: 44500
+  formule: 
+    somme:
+      - acv . tablette . carbone . fabrication
+      - acv . tablette . carbone . distribution
+      - acv . tablette . carbone . fin de vie
   unité: gCO2e
 
 tablette . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 tablette . durée de vie:
   titre: Durée de vie tablette
   question: Quelle est la durée de vie de la tablette ?
   unité: an
-  par défaut: tablette . durée de vie par défaut
-
-tablette . durée de vie par défaut:
-  par défaut: 3
-  unité: an
+  par défaut: acv . tablette . durée de vie théorique
 
 tablette . profil utilisation:
   titre: Profil d'utilisation tablette
   question: Quelle est le profil d'utilisation de la tablette ?
-  unité: heure/jour
-  par défaut: tablette . profil utilisation par défaut
-
-tablette . profil utilisation par défaut:
-  formule: 3
-  unité: heure/jour
-
-tablette . consommation en mode actif:
-  formule: 15
-  unité: Wh
+  unité: h/jour
+  par défaut: acv . tablette . profil utilisation théorique
 
 ordinateur portable:
 ordinateur portable . construction:
-  formule: 134700
+  formule: 
+    somme:
+      - acv . ordinateur portable . carbone . fabrication
+      - acv . ordinateur portable . carbone . distribution
+      - acv . ordinateur portable . carbone . fin de vie
   unité: gCO2e
 
 ordinateur portable . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 ordinateur portable . durée de vie:
   titre: Durée de vie ordinateur portable
   question: Quelle est la durée de vie de l'ordinateur portable ?
   unité: an
-  par défaut: ordinateur portable . durée de vie par défaut
-
-ordinateur portable . durée de vie par défaut:
-  par défaut: 6
-  unité: an
+  par défaut: acv . ordinateur portable . durée de vie théorique
 
 ordinateur portable . profil utilisation:
   titre: Profil d'utilisation ordinateur portable
   question: Quelle est le profil d'utilisation de l'ordinateur portable ?
-  unité: heure/jour
-  par défaut: ordinateur portable . profil utilisation par défaut
-
-ordinateur portable . profil utilisation par défaut:
-  formule: 3
-  unité: heure/jour
-
-ordinateur portable . consommation en mode actif:
-  formule: 25
-  unité: Wh
+  unité: h/jour
+  par défaut: acv . ordinateur portable . profil utilisation théorique
 
 TV:
 TV . construction:
-  formule: 349870
+  formule:
+    somme:
+      - acv . TV . carbone . fabrication
+      - acv . TV . carbone . distribution
+      - acv . TV . carbone . fin de vie
   unité: gCO2e
 
 TV . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 TV . durée de vie:
   titre: Durée de vie TV
   question: Quelle est la durée de vie de la TV ?
   unité: an
-  par défaut: TV . durée de vie par défaut
-
-TV . durée de vie par défaut:
-  par défaut: 8
-  unité: an
+  par défaut: acv . TV . durée de vie théorique
 
 TV . profil utilisation:
   titre: Profil d'utilisation TV
   question: Quelle est le profil d'utilisation de la TV ?
-  unité: heure/jour
-  par défaut: TV . profil utilisation par défaut
-
-TV . profil utilisation par défaut:
-  formule: 3
-  unité: heure/jour
-
-TV . consommation en mode actif:
-  formule: 65
-  unité: Wh
+  unité: h/jour
+  par défaut: acv . TV . profil utilisation théorique
 
 ordinateur fixe:
 ordinateur fixe . construction:
-  formule: 169080
+  formule:
+    somme:
+      - acv . ordinateur fixe . carbone . fabrication
+      - acv . ordinateur fixe . carbone . distribution
+      - acv . ordinateur fixe . carbone . fin de vie
   unité: gCO2e
-
-ordinateur fixe . durée de vie par défaut:
-  par défaut: 6
-  unité: an
-
-ordinateur fixe . consommation en mode actif:
-  formule: 50
-  unité: Wh
 
 écran:
 écran . construction:
-  formule: 247840
+  formule:
+    somme:
+      - acv . écran . carbone . fabrication
+      - acv . écran . carbone . distribution
+      - acv . écran . carbone . fin de vie
   unité: gCO2e
-
-écran . durée de vie par défaut:
-  par défaut: 6
-  unité: an
-
-écran . consommation en mode actif:
-  formule: 30
-  unité: Wh
 
 ordinateur et écran:
 ordinateur et écran . construction:
@@ -298,31 +257,33 @@ ordinateur et écran . construction:
 
 ordinateur et écran . durée d'usage:
   formule: publicodes-commun . jours par an * durée de vie * profil utilisation
-  unité: heure
+  unité: h
 
 ordinateur et écran . durée de vie:
   titre: Durée de vie ordinateur et écran
   question: Quelle est la durée de vie de votre ordinateur et écran ?
   unité: an
-  par défaut: ordinateur et écran . durée de vie par défaut
-
-ordinateur et écran . durée de vie par défaut:
-  par défaut: (ordinateur fixe . durée de vie par défaut + écran . durée de vie par défaut) / 2
-  unité: an
+  par défaut:
+    moyenne:
+      - acv . ordinateur fixe . durée de vie théorique
+      - acv . écran . durée de vie théorique
 
 ordinateur et écran . profil utilisation:
   titre: Profil d'utilisation ordinateur et écran
   question: Quelle est le profil d'utilisation de l'ordinateur et écran ?
-  unité: heure/jour
-  par défaut: ordinateur et écran . profil utilisation par défaut
+  unité: h/jour
+  par défaut: ordinateur et écran . profil utilisation théorique
 
-ordinateur et écran . profil utilisation par défaut:
-  formule: 3
-  unité: heure/jour
+ordinateur et écran . profil utilisation théorique:
+  formule:
+    moyenne:
+      - acv . ordinateur fixe . profil utilisation théorique
+      - acv . écran . profil utilisation théorique
+  unité: h/jour
 
 ordinateur et écran . consommation en mode actif:
   formule:
     somme:
-      - ordinateur fixe . consommation en mode actif
-      - écran . consommation en mode actif
-  unité: Wh
+      - acv . ordinateur fixe . consommation en mode actif
+      - acv . écran . consommation en mode actif
+  unité: W

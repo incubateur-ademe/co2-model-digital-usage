@@ -17,15 +17,15 @@ recherche web:
 recherche web . temps de saisie:
   titre: Temps de saisie de la requête
   question: Quelle est la durée de la saisie ?
-  par défaut: 50 / 60
+  par défaut: 50 minute / 60
   unité: minute
   référence: |
     "Analyse comparée des impacts environnementaux de la communication par voie électronique - Volet requête web : Rapport final"
     BioIS pour l'ADEME, 18 février 2011
 
 recherche web . temps de saisie en heure:
-  formule: temps de saisie / 60
-  unité: heure
+  formule: temps de saisie / 60 minute/h
+  unité: h
 
 recherche web . taille de la requete:
   titre: Taille de la requête
@@ -35,11 +35,11 @@ recherche web . taille de la requete:
   note: Mesure Negaoctet
 
 recherche web . taille de la requete en Mo:
-  formule: taille de la requete / 1024
+  formule: taille de la requete / 1024 ko/Mo
   unité: Mo
 
 recherche web . taille de la requete en Go:
-  formule: taille de la requete / 1024 / 1024
+  formule: taille de la requete / 1024 ko/Mo / 1024 Mo/Go
   unité: Go
 
 recherche web . taille de la page:
@@ -51,11 +51,11 @@ recherche web . taille de la page:
     Basé sur la taille moyenne des pages des 10 recherches les plus effectuées en 2021 (source : google trends)
 
 recherche web . taille de la page en Mo:
-  formule: taille de la page / 1024
+  formule: taille de la page / 1024 ko/Mo
   unité: Mo
 
 recherche web . taille de la page en Go:
-  formule: taille de la page / 1024 / 1024
+  formule: taille de la page / 1024 ko/Mo / 1024 Mo/Go
   unité: Go
 
 recherche web . temps de consultation:
@@ -68,8 +68,8 @@ recherche web . temps de consultation:
     BioIS pour l'ADEME, 18 février 2011
 
 recherche web . temps de consultation en heure:
-  formule: temps de consultation / 60
-  unité: heure
+  formule: temps de consultation / 60 minute/h
+  unité: h
 
 recherche web . nombre de pages de résultats lues:
   titre: Nombre de pages de résultats consultées
@@ -125,7 +125,7 @@ recherche web . appareil . moyenne utilisation smartphone: 45%
 
 recherche web . appareil . durée totale sollicitation:
   formule: temps de saisie en heure + temps de consultation en heure * nombre de pages de résultats lues
-  unité: heure
+  unité: h
 
 recherche web . terminaux . usage:
   valeur: usage réel
@@ -188,7 +188,7 @@ recherche web . data center:
       - Transfert des informations via le routeur et serveur d’entree du Data Center ;
 
 recherche web . data center . allocation serveur par Mo:
-  formule: 1 / 10052100000
+  formule: 1 / 10052100000 Mo
   note: |
     "Allocation par rapport au volume d'information traité par les serveurs, avec :
     Q informations traitées (Mo) = (taux de transfert des ports ethernet (Mo/s)) x 3600 x Temps d’utilisation (h/jr) x Taux moyen d’utilisation x Duree de vie en jours
@@ -227,5 +227,5 @@ recherche web . data center . usage . consommation totale serveur:
   formule: consommation annuelle serveur * serveur . durée de vie
 
 recherche web . data center . usage . consommation annuelle serveur:
-  formule: serveur . puissance en mode actif * 24 * 365 / 1000
+  formule: serveur . puissance en mode actif * 24 h/jour * 365 jour/an / 1000 Wh/kWh * 1 Wh/W.h
   unité: kWh/an

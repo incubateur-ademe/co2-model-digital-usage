@@ -20,7 +20,7 @@ email . taille:
   unité: Mo
 
 email . taille en Go:
-  formule: taille / 1024
+  formule: taille / 1024 Mo/Go
   unité: Go
 
 email . destinataires:
@@ -62,7 +62,7 @@ email . taux moyen de remplissage du stockage:
 email . nombre de mails envoyés et reçus par jour et par personne:
   titre: Nombre de mails reçus et envoyés par jour et par personne
   question: Combien de mails envoyés et réçus par jour et par personne ?
-  par défaut: 117.7
+  par défaut: 117.7 /jour
   référence: Email Statistics Report, 2015-2019, The Radicati group
 
 email . terminaux:
@@ -106,7 +106,7 @@ email . appareil . moyenne utilisation tablette: 8%
 email . appareil . moyenne utilisation smartphone: 45%
 
 email . appareil . durée totale sollicitation:
-  formule: terminaux . temps écriture en heure + terminaux . temps lecture en heure
+  formule: terminaux . temps écriture en h + terminaux . temps lecture en h
 
 email . terminaux . temps écriture:
   titre: Temps d'écriture du mail
@@ -114,9 +114,9 @@ email . terminaux . temps écriture:
   par défaut: 3
   unité: minute
 
-email . terminaux . temps écriture en heure:
-  formule: temps écriture / 60
-  unité: heure
+email . terminaux . temps écriture en h:
+  formule: temps écriture / 60 minute/h
+  unité: h
 
 email . terminaux . pourcentage lecture:
   titre: Taux de lecture du mail
@@ -126,16 +126,16 @@ email . terminaux . pourcentage lecture:
 email . terminaux . temps lecture récepteur:
   titre: Temps de lecture du mail
   question: Quel est le temps de lecture du mail ?
-  par défaut: 10 / 60
+  par défaut: 10 minute / 60
   unité: minute
 
 email . terminaux . temps lecture total:
   formule: destinataires * pourcentage lecture * temps lecture récepteur
   unité: minute
 
-email . terminaux . temps lecture en heure:
-  formule: temps lecture total / 60
-  unité: heure
+email . terminaux . temps lecture en h:
+  formule: temps lecture total / 60 minute/h
+  unité: h
 
 email . terminaux . usage:
   valeur: usage réel
@@ -217,7 +217,7 @@ email . transmission . redondances sauvegarde:
   # formule: (redondances sauvegarde émetteur + destinataires * redondances sauvegarde récepteur) * taille en Go * facteur réseau
   formule: destinataires * taille en Go * facteur réseau * (1 + redondances sauvegarde émetteur + redondances sauvegarde récepteur)
   note: Formule peu documentée, non comprise, je pense que ce poste est à précisier/définir
-  unité: Go
+  unité: gCO2e
 
 email . transmission . redondances sauvegarde . facteur réseau:
   titre: Facteur réseau transmission sauvegarde
@@ -264,7 +264,7 @@ email . data center . construction . émetteur:
     construction data center . stockage . facteur d'allocation: data center . construction . émetteur . facteur d'allocation stockage
 
 email . data center . construction . émetteur . facteur d'allocation serveur:
-  formule: 1 / (serveur . nombre d'utilisateurs par serveur * nombre de mails envoyés et reçus par jour et par personne * 365 * serveur . durée de vie)
+  formule: 1 / (serveur . nombre d'utilisateurs par serveur * nombre de mails envoyés et reçus par jour et par personne * 365 jour/an * serveur . durée de vie)
   note: Allocation au nombre de mail par an et par utilisateur, et d'utilisateur par serveur
 
 email . data center . construction . émetteur . facteur d'allocation stockage:
@@ -299,7 +299,7 @@ email . data center . usage . émetteur:
   unité: gCO2e
 
 email . data center . usage . émetteur . consommation électricité réelle:
-  formule: consommation électricité * serveur . PUE mails / 1000
+  formule: consommation électricité * serveur . PUE mails / 1000 Wh/kWh
   unité: kWh
 
 email . data center . usage . émetteur . consommation électricité:
@@ -307,11 +307,11 @@ email . data center . usage . émetteur . consommation électricité:
   unité: Wh
 
 email . data center . usage . émetteur . consommation électricité . consommation serveur par mail:
-  formule: serveur . puissance par utilisateur * 24 / nombre de mails envoyés et reçus par jour et par personne
+  formule: serveur . puissance par utilisateur * 24 h/jour / nombre de mails envoyés et reçus par jour et par personne * 1 Wh/W.h
   unité: Wh
 
 email . data center . usage . émetteur . consommation électricité . consommation serveur stockage:
-  formule: taille * redondances sauvegarde émetteur / (serveur . capacité * taux moyen de remplissage du stockage) * stockage . puissance en mode actif * 24 * 365 * durée stockage mail
+  formule: taille * redondances sauvegarde émetteur / (serveur . capacité * taux moyen de remplissage du stockage) * stockage . puissance en mode actif * 24 h/jour * 365 jour/an * durée stockage mail * 1 Wh/W.h
   unité: Wh
 
 email . data center . usage . récepteur:

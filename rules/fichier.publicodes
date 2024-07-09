@@ -57,7 +57,7 @@ fichier . data center:
 fichier . data center . construction:
   valeur: construction data center
   contexte:
-    construction data center . serveur . facteur d'allocation: facteur allocation serveur
+    construction data center . serveur . facteur d'allocation: facteur allocation serveur * fichier . taille
     construction data center . stockage . facteur d'allocation: 0
   note: Stockage non pris en compte, considérant que le fichier peut être partagé par un grand nombre de personnes
 
@@ -75,11 +75,11 @@ fichier . data center . usage:
     il a été considéré par hypothèse que celle-ci est similaire à celle de la vidéo en ligne.
 
 fichier . data center . usage . consommation électricité:
-  formule: taille * électricité par Go en Wh / 1000
+  formule: taille * électricité par Go en Wh / 1000 Wh/kWh
   unité: kWh
 
 fichier . data center . usage . électricité par Go en Wh:
-  formule: électricité par Go * 1000000
+  formule: électricité par Go * 1000000 Wh/MWh
   unité: Wh/Go
 
 fichier . data center . usage . électricité par Go:
