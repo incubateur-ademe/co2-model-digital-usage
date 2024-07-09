@@ -5,12 +5,12 @@ import { Link, Route, Routes, useParams } from 'react-router-dom'
 import { ComponentProps, useRef } from 'react'
 import ReactMardown from 'react-markdown'
 
-import model from './publicodes-negaoctet.model.json'
+import model from './publicodes-acv-numerique.model.json'
 
 const engine = new Engine(model as {})
 
 const baseUrl =
-  process.env.NODE_ENV === 'development' ? '' : '/publicodes-negaoctet'
+  process.env.NODE_ENV === 'development' ? '' : '/publicodes-acv-numerique'
 
 const defaultRule = 'construction-data-center'
 
@@ -29,7 +29,7 @@ function Documentation() {
         engine={engine}
         renderers={renderers}
         language={'fr'}
-        npmPackage="@incubateur-ademe/publicodes-negaoctet"
+        npmPackage="@incubateur-ademe/publicodes-acv-numerique"
       />
     </div>
   )

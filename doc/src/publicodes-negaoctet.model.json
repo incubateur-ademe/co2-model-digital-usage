@@ -1,0 +1,2384 @@
+{
+  "acv": {
+    "titre": "Analyse de cycle de vie des appareils",
+    "description": "Cette section présente les émissions de gaz à effet de serre liées à la fabrication, la distribution, l'usage et la fin de vie des appareils électroniques selon l'étude menée par Negaoctet.\n"
+  },
+  "acv . smartphone": {
+    "description": "6,63 inches screen mix of LCD and OLED technologies, 8 GB RAM, 210 GB memory (mix pondéré entre 3 configurations, 24%,24%, 52%)\n"
+  },
+  "acv . smartphone . carbone": null,
+  "acv . smartphone . eau": null,
+  "acv . smartphone . carbone . fabrication": {
+    "formule": 83000,
+    "unité": "gCO2e"
+  },
+  "acv . smartphone . eau . fabrication": {
+    "formule": 76000,
+    "unité": "l"
+  },
+  "acv . smartphone . carbone . distribution": {
+    "formule": 2100,
+    "unité": "gCO2e"
+  },
+  "acv . smartphone . eau . distribution": {
+    "formule": 10,
+    "unité": "l"
+  },
+  "acv . smartphone . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . smartphone . carbone . fin de vie": {
+    "formule": 200,
+    "unité": "gCO2e"
+  },
+  "acv . smartphone . eau . fin de vie": {
+    "formule": 58300,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . smartphone . durée de vie théorique": {
+    "formule": 2.5,
+    "unité": "an"
+  },
+  "acv . smartphone . consommation en mode actif": {
+    "formule": 5.6,
+    "unité": "W"
+  },
+  "acv . smartphone . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . smartphone . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . tablette": {
+    "description": "10.53 inches screen mix of LCD screen, 4.7 GB RAM, 144 GB memory (mix pondéré entre 3 configurations, étude [ADEME-ARCEP](https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html), Rapport 2, page 42)\n"
+  },
+  "acv . tablette . carbone": null,
+  "acv . tablette . eau": null,
+  "acv . tablette . carbone . fabrication": {
+    "formule": 56300,
+    "unité": "gCO2e"
+  },
+  "acv . tablette . eau . fabrication": {
+    "formule": 98500,
+    "unité": "l"
+  },
+  "acv . tablette . carbone . distribution": {
+    "formule": 3400,
+    "unité": "gCO2e"
+  },
+  "acv . tablette . eau . distribution": {
+    "formule": 20,
+    "unité": "l"
+  },
+  "acv . tablette . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . tablette . carbone . fin de vie": {
+    "formule": 400,
+    "unité": "gCO2e"
+  },
+  "acv . tablette . eau . fin de vie": {
+    "formule": 61500,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . tablette . durée de vie théorique": {
+    "formule": 3,
+    "unité": "an"
+  },
+  "acv . tablette . consommation en mode actif": {
+    "formule": 15,
+    "unité": "W"
+  },
+  "acv . tablette . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . tablette . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . ordinateur portable": {
+    "description": "14,6 inches screen, 1 CPU, 11 GB RAM, 497 GB SSD (mix pondéré entre 3 configurations, étude [ADEME-ARCEP](https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html), Rapport 2, page 43-44)\n"
+  },
+  "acv . ordinateur portable . carbone": null,
+  "acv . ordinateur portable . eau": null,
+  "acv . ordinateur portable . carbone . fabrication": {
+    "formule": 170300,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur portable . eau . fabrication": {
+    "formule": 194200,
+    "unité": "l"
+  },
+  "acv . ordinateur portable . carbone . distribution": {
+    "formule": 12300,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur portable . eau . distribution": {
+    "formule": 60,
+    "unité": "l"
+  },
+  "acv . ordinateur portable . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur portable . carbone . fin de vie": {
+    "formule": 2800,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur portable . eau . fin de vie": {
+    "formule": 638400,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . ordinateur portable . durée de vie théorique": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "acv . ordinateur portable . consommation en mode actif": {
+    "formule": 25,
+    "unité": "W"
+  },
+  "acv . ordinateur portable . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . ordinateur portable . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . TV": {
+    "description": "Average dimension and technology (82% LCD (45 inches), 1% OLED (53 inches), 17% OLED (68 inches)) (mix pondéré entre 3 configurations)\n"
+  },
+  "acv . TV . carbone": null,
+  "acv . TV . eau": null,
+  "acv . TV . carbone . fabrication": {
+    "formule": 372600,
+    "unité": "gCO2e"
+  },
+  "acv . TV . eau . fabrication": {
+    "formule": 1113200,
+    "unité": "l"
+  },
+  "acv . TV . carbone . distribution": {
+    "formule": 3200,
+    "unité": "gCO2e"
+  },
+  "acv . TV . eau . distribution": {
+    "formule": 10,
+    "unité": "l"
+  },
+  "acv . TV . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . TV . carbone . fin de vie": {
+    "formule": 11800,
+    "unité": "gCO2e"
+  },
+  "acv . TV . eau . fin de vie": {
+    "formule": 1316400,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . TV . durée de vie théorique": {
+    "formule": 8,
+    "unité": "an"
+  },
+  "acv . TV . consommation en mode actif": {
+    "formule": 65,
+    "unité": "W"
+  },
+  "acv . TV . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . TV . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . ordinateur fixe": {
+    "description": "1 CPU, 10 GB RAM, 1173 GB HDD, 442 GB SSD, mix of integrated or separated graphic card  (mix pondéré entre 5 configurations, étude [ADEME-ARCEP](https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html), Rapport 2, page 45)\n"
+  },
+  "acv . ordinateur fixe . carbone": null,
+  "acv . ordinateur fixe . eau": null,
+  "acv . ordinateur fixe . carbone . fabrication": {
+    "formule": 258600,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur fixe . eau . fabrication": {
+    "formule": 81900,
+    "unité": "l"
+  },
+  "acv . ordinateur fixe . carbone . distribution": {
+    "formule": 2900,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur fixe . eau . distribution": {
+    "formule": 10,
+    "unité": "l"
+  },
+  "acv . ordinateur fixe . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur fixe . carbone . fin de vie": {
+    "formule": 6600,
+    "unité": "gCO2e"
+  },
+  "acv . ordinateur fixe . eau . fin de vie": {
+    "formule": 2070000,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . ordinateur fixe . durée de vie théorique": {
+    "formule": 6,
+    "unité": "an"
+  },
+  "acv . ordinateur fixe . consommation en mode actif": {
+    "formule": 50,
+    "unité": "W"
+  },
+  "acv . ordinateur fixe . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . ordinateur fixe . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . écran": {
+    "description": "Dimension moyenne (24 inches) et mix de technologie (98.6% LCD, 1.4% OLED)  (mix pondéré entre 2 configurations, étude [ADEME-ARCEP](https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html), Rapport 2, page 49)\n"
+  },
+  "acv . écran . carbone": null,
+  "acv . écran . eau": null,
+  "acv . écran . carbone . fabrication": {
+    "formule": 64600,
+    "unité": "gCO2e"
+  },
+  "acv . écran . eau . fabrication": {
+    "formule": 58300,
+    "unité": "l"
+  },
+  "acv . écran . carbone . distribution": {
+    "formule": 1300,
+    "unité": "gCO2e"
+  },
+  "acv . écran . eau . distribution": {
+    "formule": 5,
+    "unité": "l"
+  },
+  "acv . écran . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . écran . carbone . fin de vie": {
+    "formule": 3900,
+    "unité": "gCO2e"
+  },
+  "acv . écran . eau . fin de vie": {
+    "formule": 677200,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . écran . durée de vie théorique": {
+    "formule": 6,
+    "unité": "an"
+  },
+  "acv . écran . consommation en mode actif": {
+    "formule": 30,
+    "unité": "W"
+  },
+  "acv . écran . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . écran . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . casque": {
+    "titre": "Casque de réalité virtuelle",
+    "description": "Moyenne de deux technologies (50% LCD, 50%OLED) + prise en compte de deux manettes\n"
+  },
+  "acv . casque . carbone": null,
+  "acv . casque . eau": null,
+  "acv . casque . carbone . fabrication": {
+    "formule": 70400,
+    "unité": "gCO2e"
+  },
+  "acv . casque . eau . fabrication": {
+    "formule": 100200,
+    "unité": "l"
+  },
+  "acv . casque . carbone . distribution": {
+    "formule": 400,
+    "unité": "gCO2e"
+  },
+  "acv . casque . eau . distribution": {
+    "formule": 5,
+    "unité": "l"
+  },
+  "acv . casque . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . casque . carbone . fin de vie": {
+    "formule": 1300,
+    "unité": "gCO2e"
+  },
+  "acv . casque . eau . fin de vie": {
+    "formule": -23600,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables.\nCurieux cette valeur négative, la seule parmi les appareils ici.\n"
+  },
+  "acv . casque . durée de vie théorique": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "acv . casque . consommation en mode actif": {
+    "formule": 2,
+    "unité": "W"
+  },
+  "acv . casque . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . casque . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . enceinte": {
+    "titre": "Enceinte connectée"
+  },
+  "acv . enceinte . carbone": null,
+  "acv . enceinte . eau": null,
+  "acv . enceinte . carbone . fabrication": {
+    "formule": 19500,
+    "unité": "gCO2e"
+  },
+  "acv . enceinte . eau . fabrication": {
+    "formule": 4410,
+    "unité": "l"
+  },
+  "acv . enceinte . carbone . distribution": {
+    "formule": 300,
+    "unité": "gCO2e"
+  },
+  "acv . enceinte . eau . distribution": {
+    "formule": 5,
+    "unité": "l"
+  },
+  "acv . enceinte . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . enceinte . carbone . fin de vie": {
+    "formule": 700,
+    "unité": "gCO2e"
+  },
+  "acv . enceinte . eau . fin de vie": {
+    "formule": 112000,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . enceinte . durée de vie théorique": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "acv . enceinte . consommation en mode actif": {
+    "formule": 20,
+    "unité": "W"
+  },
+  "acv . enceinte . profil utilisation théorique": {
+    "formule": 3,
+    "unité": "h/jour"
+  },
+  "acv . enceinte . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . console de salon": null,
+  "acv . console de salon . carbone": null,
+  "acv . console de salon . eau": null,
+  "acv . console de salon . carbone . fabrication": {
+    "formule": 279000,
+    "unité": "gCO2e"
+  },
+  "acv . console de salon . eau . fabrication": {
+    "formule": 101000,
+    "unité": "l"
+  },
+  "acv . console de salon . carbone . distribution": {
+    "formule": 1200,
+    "unité": "gCO2e"
+  },
+  "acv . console de salon . eau . distribution": {
+    "formule": 1,
+    "unité": "l"
+  },
+  "acv . console de salon . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . console de salon . carbone . fin de vie": {
+    "formule": 4600,
+    "unité": "gCO2e"
+  },
+  "acv . console de salon . eau . fin de vie": {
+    "formule": 907000,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . console de salon . durée de vie théorique": {
+    "formule": 6,
+    "unité": "an"
+  },
+  "acv . console de salon . consommation en mode actif": {
+    "formule": 80,
+    "unité": "W"
+  },
+  "acv . console de salon . profil utilisation théorique": {
+    "formule": 1,
+    "unité": "h/jour"
+  },
+  "acv . console de salon . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . console portable": null,
+  "acv . console portable . carbone": null,
+  "acv . console portable . eau": null,
+  "acv . console portable . carbone . fabrication": {
+    "formule": 64800,
+    "unité": "gCO2e"
+  },
+  "acv . console portable . eau . fabrication": {
+    "formule": 23000,
+    "unité": "l"
+  },
+  "acv . console portable . carbone . distribution": {
+    "formule": 300,
+    "unité": "gCO2e"
+  },
+  "acv . console portable . eau . distribution": {
+    "formule": 1,
+    "unité": "l"
+  },
+  "acv . console portable . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . console portable . carbone . fin de vie": {
+    "formule": 500,
+    "unité": "gCO2e"
+  },
+  "acv . console portable . eau . fin de vie": {
+    "formule": 112000,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . console portable . durée de vie théorique": {
+    "formule": 6,
+    "unité": "an"
+  },
+  "acv . console portable . consommation en mode actif": {
+    "formule": 10,
+    "unité": "W"
+  },
+  "acv . console portable . profil utilisation théorique": {
+    "formule": 1,
+    "unité": "h/jour"
+  },
+  "acv . console portable . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "acv . imprimante": null,
+  "acv . imprimante . carbone": null,
+  "acv . imprimante . eau": null,
+  "acv . imprimante . carbone . fabrication": {
+    "formule": 10500,
+    "unité": "gCO2e"
+  },
+  "acv . imprimante . eau . fabrication": {
+    "formule": 40500,
+    "unité": "l"
+  },
+  "acv . imprimante . carbone . distribution": {
+    "formule": 300,
+    "unité": "gCO2e"
+  },
+  "acv . imprimante . eau . distribution": {
+    "formule": 20,
+    "unité": "l"
+  },
+  "acv . imprimante . carbone . usage théorique": {
+    "formule": "consommation annuelle * publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e * durée de vie théorique",
+    "unité": "gCO2e"
+  },
+  "acv . imprimante . carbone . fin de vie": {
+    "formule": 10200,
+    "unité": "gCO2e"
+  },
+  "acv . imprimante . eau . fin de vie": {
+    "formule": 2400000,
+    "unité": "l",
+    "note": "Selon le service Numérique ADEME, les données de la fin de vie pour l'indicateur eau ne sont pas fiables."
+  },
+  "acv . imprimante . durée de vie théorique": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "acv . imprimante . consommation en mode actif": {
+    "formule": 60,
+    "unité": "W"
+  },
+  "acv . imprimante . profil utilisation théorique": {
+    "formule": 1,
+    "unité": "h/jour"
+  },
+  "acv . imprimante . consommation annuelle": {
+    "formule": "consommation en mode actif * profil utilisation théorique * publicodes-commun . jours par an / 1000 W.h/kWh",
+    "unité": "kWh/an"
+  },
+  "serveur": null,
+  "serveur . puissance": {
+    "formule": 367,
+    "unité": "W",
+    "note": "source Borderstep"
+  },
+  "serveur . puissance par utilisateur": {
+    "formule": 0.22,
+    "unité": "W",
+    "note": "Source Google’s Green Computing Efficiency at Scale (GMAIL)"
+  },
+  "serveur . nombre d'utilisateurs par serveur": {
+    "formule": "puissance / puissance par utilisateur"
+  },
+  "serveur . PUE mails": {
+    "formule": 1.16,
+    "note": "power usage effectiveness Source Google’s Green Computing Efficiency at Scale (GMAIL)"
+  },
+  "serveur . PUE streaming": {
+    "formule": 1.3,
+    "note": "hypothèse"
+  },
+  "serveur . capacité": {
+    "formule": "3.5524 * 1024 * 1024",
+    "unité": "Mo",
+    "note": "pas de source.."
+  },
+  "serveur . construction": {
+    "formule": 748000,
+    "unité": "gCO2e"
+  },
+  "serveur . durée de vie": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "serveur . puissance en mode actif": {
+    "formule": 400,
+    "unité": "W"
+  },
+  "firewall": null,
+  "firewall . construction": {
+    "formule": 355000,
+    "unité": "gCO2e"
+  },
+  "firewall . durée de vie": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "switch": null,
+  "switch . construction": {
+    "formule": 367000,
+    "unité": "gCO2e"
+  },
+  "switch . durée de vie": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "routeur": null,
+  "routeur . construction": {
+    "formule": 41200,
+    "unité": "gCO2e"
+  },
+  "routeur . durée de vie": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "stockage": null,
+  "stockage . construction": {
+    "formule": 144000,
+    "unité": "gCO2e"
+  },
+  "stockage . durée de vie": {
+    "formule": 5,
+    "unité": "an"
+  },
+  "stockage . puissance en mode actif": {
+    "formule": 6,
+    "unité": "W"
+  },
+  "équipements support": null,
+  "équipements support . construction": {
+    "formule": 187000,
+    "unité": "gCO2e/m2"
+  },
+  "équipements support . durée de vie": {
+    "formule": 25,
+    "unité": "an"
+  },
+  "construction data center": {
+    "formule": {
+      "somme": [
+        "firewall",
+        "switch",
+        "routeur",
+        "serveur",
+        "stockage",
+        "équipements support"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "construction data center . serveur": {
+    "formule": "facteur d'allocation * serveur . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . serveur . facteur d'allocation": {
+    "formule": 0,
+    "note": "A remplacer dans le recalcul"
+  },
+  "construction data center . firewall": {
+    "formule": "facteur d'allocation * firewall . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . firewall . facteur d'allocation": {
+    "formule": "0.0358 * serveur . facteur d'allocation",
+    "référence": "considérant 0,0358 firewall par serveur (données APL Datacenter basées sur une moyenne du marché)"
+  },
+  "construction data center . switch": {
+    "formule": "facteur d'allocation * switch . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . switch . facteur d'allocation": {
+    "formule": "1.468 * serveur . facteur d'allocation",
+    "référence": "considérant 1,468 switchs par serveur (données APL Datacenter basées sur une moyenne du marché)"
+  },
+  "construction data center . routeur": {
+    "formule": "facteur d'allocation * routeur . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . routeur . facteur d'allocation": {
+    "formule": "0.286 * serveur . facteur d'allocation",
+    "référence": "considérant 0,286 routeurs par serveur (données APL Datacenter basées sur une moyenne du marché)"
+  },
+  "construction data center . stockage": {
+    "formule": "facteur d'allocation * stockage . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . stockage . facteur d'allocation": {
+    "formule": 0,
+    "note": "A remplacer dans le recalcul"
+  },
+  "construction data center . équipements support": {
+    "formule": "facteur d'allocation * équipements support . construction",
+    "unité": "gCO2e"
+  },
+  "construction data center . équipements support . facteur d'allocation": {
+    "formule": "0.68 m2 * serveur . facteur d'allocation * serveur . durée de vie / équipements support . durée de vie",
+    "note": "formule me semble fausse, pourquoi inclure la durée de vie du serveur ?",
+    "référence": "\"Allocation au m2 utilisé par serveur, en considérant 0,68m de salle IT par serveur (données APL Datacenter basées sur une moyenne du marché)\nSont exclus les consommations de fioul, d'eau et les fuites frigorigènes, négligeables.\"\n"
+  },
+  "usage data center": {
+    "formule": "consommation électricité * facteur électricité",
+    "unité": "gCO2e"
+  },
+  "usage data center . consommation électricité": {
+    "par défaut": 0,
+    "unité": "kWh"
+  },
+  "usage data center . région": {
+    "titre": "Région d'utilisation du data center",
+    "avec": {
+      "France": null,
+      "Europe": null,
+      "Chine": null,
+      "USA": null
+    },
+    "question": "Dans quelle zone géographique se situe le data center ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "France",
+          "Europe",
+          "Chine",
+          "USA"
+        ]
+      }
+    },
+    "par défaut": "'France'"
+  },
+  "usage data center . facteur électricité": {
+    "formule": {
+      "variations": [
+        {
+          "si": "région = 'France'",
+          "alors": "électricité . FE France"
+        },
+        {
+          "si": "région = 'Europe'",
+          "alors": "électricité . FE Europe"
+        },
+        {
+          "si": "région = 'Chine'",
+          "alors": "électricité . FE Chine"
+        },
+        {
+          "si": "région = 'USA'",
+          "alors": "électricité . FE USA"
+        }
+      ]
+    },
+    "unité": "gCO2e/kWh"
+  },
+  "email": {
+    "formule": {
+      "variations": [
+        {
+          "si": {
+            "toutes ces conditions": [
+              "taille > 0",
+              "destinataires > 0"
+            ]
+          },
+          "alors": {
+            "somme": [
+              "terminaux",
+              "transmission",
+              "data center"
+            ]
+          }
+        },
+        {
+          "sinon": 0
+        }
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "email . taille": {
+    "titre": "Taille de mail",
+    "question": "Quelle est la taille du mail (en Mo)?",
+    "par défaut": 1,
+    "unité": "Mo"
+  },
+  "email . taille en Go": {
+    "formule": "taille / 1024 Mo/Go",
+    "unité": "Go"
+  },
+  "email . destinataires": {
+    "titre": "Nombre de destinataires",
+    "question": "Quelle est le nombre de destinataires?",
+    "par défaut": 1
+  },
+  "email . durée stockage mail": {
+    "titre": "Durée de stockage des mails",
+    "question": "Quelle est la durée de stockage du mail ?",
+    "par défaut": 10,
+    "unité": "an",
+    "note": "on fait l'hypothèse que la durée de stockage coté émetteur et récepteur est la même."
+  },
+  "email . redondances sauvegarde émetteur": {
+    "titre": "Nombre de redondances de sauvagardes coté émetteur",
+    "question": "Quelle est le nombre de redondances de sauvagardes émetteur ?",
+    "par défaut": 3,
+    "référence": "Analyse comparée des impacts environnementaux de la communication par voie électronique\nVolet courrier électronique : Rapport final\" - BioIS pour l'ADEME, 5 juillet 2011\n"
+  },
+  "email . redondances sauvegarde récepteur": {
+    "titre": "Nombre de redondances de sauvagardes coté récepteur",
+    "question": "Quelle est le nombre de redondances de sauvagardes récepteur ?",
+    "par défaut": 3,
+    "référence": "Analyse comparée des impacts environnementaux de la communication par voie électronique\nVolet courrier électronique : Rapport final\" - BioIS pour l'ADEME, 5 juillet 2011\n"
+  },
+  "email . taux moyen de remplissage du stockage": {
+    "titre": "Taux moyen de remplissage du stockage",
+    "question": "quel est le taux moyen de remplissage du stockage ?",
+    "par défaut": "50%",
+    "référence": "Analyse comparée des impacts environnementaux de la communication par voie électronique\nVolet courrier électronique : Rapport final\" - BioIS pour l'ADEME, 5 juillet 2011\n"
+  },
+  "email . nombre de mails envoyés et reçus par jour et par personne": {
+    "titre": "Nombre de mails reçus et envoyés par jour et par personne",
+    "question": "Combien de mails envoyés et réçus par jour et par personne ?",
+    "par défaut": "117.7 /jour",
+    "référence": "Email Statistics Report, 2015-2019, The Radicati group"
+  },
+  "email . terminaux": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    }
+  },
+  "email . terminaux . construction": {
+    "valeur": "construction réelle",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone"
+    }
+  },
+  "email . appareil": {
+    "titre": "Appareil utilisé",
+    "avec": {
+      "ordinateur et écran": {
+        "titre": "ordinateur fixe"
+      },
+      "ordinateur portable": null,
+      "tablette": null,
+      "smartphone": null
+    },
+    "question": "Quel appareil utlisez-vous ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "ordinateur et écran",
+          "ordinateur portable",
+          "tablette",
+          "smartphone"
+        ]
+      }
+    },
+    "par défaut": "'moyenne'"
+  },
+  "email . appareil . moyenne utilisation ordinateur et écran": "24%",
+  "email . appareil . moyenne utilisation ordinateur portable": "24%",
+  "email . appareil . moyenne utilisation tablette": "8%",
+  "email . appareil . moyenne utilisation smartphone": "45%",
+  "email . appareil . durée totale sollicitation": {
+    "formule": "terminaux . temps écriture en h + terminaux . temps lecture en h"
+  },
+  "email . terminaux . temps écriture": {
+    "titre": "Temps d'écriture du mail",
+    "question": "Quel est le temps d'écriture du mail ?",
+    "par défaut": 3,
+    "unité": "minute"
+  },
+  "email . terminaux . temps écriture en h": {
+    "formule": "temps écriture / 60 minute/h",
+    "unité": "h"
+  },
+  "email . terminaux . pourcentage lecture": {
+    "titre": "Taux de lecture du mail",
+    "question": "Quel est le pourcentage de lecture du mail ?",
+    "par défaut": "100%"
+  },
+  "email . terminaux . temps lecture récepteur": {
+    "titre": "Temps de lecture du mail",
+    "question": "Quel est le temps de lecture du mail ?",
+    "par défaut": "10 minute / 60",
+    "unité": "minute"
+  },
+  "email . terminaux . temps lecture total": {
+    "formule": "destinataires * pourcentage lecture * temps lecture récepteur",
+    "unité": "minute"
+  },
+  "email . terminaux . temps lecture en h": {
+    "formule": "temps lecture total / 60 minute/h",
+    "unité": "h"
+  },
+  "email . terminaux . usage": {
+    "valeur": "usage réel",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone"
+    }
+  },
+  "email . transmission": {
+    "formule": {
+      "somme": [
+        "émetteur",
+        "récepteur",
+        "redondances sauvegarde"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "email . transmission . émetteur": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "taille en Go",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e"
+  },
+  "email . transmission . émetteur . réseau": {
+    "titre": "Type de réseau utilisé pour l'émission",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "email . transmission . récepteur": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "destinataires * taille en Go",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e"
+  },
+  "email . transmission . récepteur . réseau": {
+    "titre": "Type de réseau utilisé pour le réception",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "email . transmission . redondances sauvegarde": {
+    "formule": "destinataires * taille en Go * facteur réseau * (1 + redondances sauvegarde émetteur + redondances sauvegarde récepteur)",
+    "note": "Formule peu documentée, non comprise, je pense que ce poste est à précisier/définir",
+    "unité": "gCO2e"
+  },
+  "email . transmission . redondances sauvegarde . facteur réseau": {
+    "titre": "Facteur réseau transmission sauvegarde",
+    "formule": {
+      "variations": [
+        {
+          "si": "réseau = 'fixe FR hors box'",
+          "alors": "transmission par défaut . facteur réseau fixe FR hors box"
+        },
+        {
+          "si": "réseau = 'fixe FR hors box'",
+          "alors": "transmission par défaut . facteur réseau fixe EU hors box"
+        }
+      ]
+    },
+    "unité": "gCO2e/Go"
+  },
+  "email . transmission . redondances sauvegarde . réseau": {
+    "titre": "Type de réseau utilisé pour la transmission des sauvegardes",
+    "avec": {
+      "fixe FR hors box": null,
+      "fixe EU hors box": null
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR hors box",
+          "fixe EU hors box"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR hors box'"
+  },
+  "email . data center": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "email . data center . construction": {
+    "formule": {
+      "somme": [
+        "émetteur",
+        "récepteur"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "email . data center . construction . émetteur": {
+    "valeur": "construction data center",
+    "contexte": {
+      "construction data center . serveur . facteur d'allocation": "data center . construction . émetteur . facteur d'allocation serveur",
+      "construction data center . stockage . facteur d'allocation": "data center . construction . émetteur . facteur d'allocation stockage"
+    }
+  },
+  "email . data center . construction . émetteur . facteur d'allocation serveur": {
+    "formule": "1 / (serveur . nombre d'utilisateurs par serveur * nombre de mails envoyés et reçus par jour et par personne * 365 jour/an * serveur . durée de vie)",
+    "note": "Allocation au nombre de mail par an et par utilisateur, et d'utilisateur par serveur"
+  },
+  "email . data center . construction . émetteur . facteur d'allocation stockage": {
+    "formule": "taille mails * ratio total",
+    "note": "Negaoctet : Allocation à la taille de stockage du mail et de ses redondances ramenée à la capacité de stockage\nBesoin d'explications sur cette formule ..\n"
+  },
+  "email . data center . construction . émetteur . facteur d'allocation stockage . taille mails": {
+    "formule": "taille * redondances sauvegarde émetteur",
+    "unité": "Mo"
+  },
+  "email . data center . construction . émetteur . facteur d'allocation stockage . ratio total": {
+    "formule": "durée stockage mail / (serveur . capacité * taux moyen de remplissage du stockage * stockage . durée de vie)"
+  },
+  "email . data center . construction . récepteur": {
+    "valeur": "construction . émetteur",
+    "contexte": {
+      "data center . construction . émetteur . facteur d'allocation stockage . taille mails": "taille * redondances sauvegarde récepteur * destinataires"
+    }
+  },
+  "email . data center . usage": {
+    "formule": {
+      "somme": [
+        "émetteur",
+        "récepteur"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "email . data center . usage . émetteur": {
+    "valeur": "usage data center",
+    "contexte": {
+      "usage data center . consommation électricité": "consommation électricité réelle"
+    },
+    "unité": "gCO2e"
+  },
+  "email . data center . usage . émetteur . consommation électricité réelle": {
+    "formule": "consommation électricité * serveur . PUE mails / 1000 Wh/kWh",
+    "unité": "kWh"
+  },
+  "email . data center . usage . émetteur . consommation électricité": {
+    "formule": "consommation serveur par mail + consommation serveur stockage",
+    "unité": "Wh"
+  },
+  "email . data center . usage . émetteur . consommation électricité . consommation serveur par mail": {
+    "formule": "serveur . puissance par utilisateur * 24 h/jour / nombre de mails envoyés et reçus par jour et par personne * 1 Wh/W.h",
+    "unité": "Wh"
+  },
+  "email . data center . usage . émetteur . consommation électricité . consommation serveur stockage": {
+    "formule": "taille * redondances sauvegarde émetteur / (serveur . capacité * taux moyen de remplissage du stockage) * stockage . puissance en mode actif * 24 h/jour * 365 jour/an * durée stockage mail * 1 Wh/W.h",
+    "unité": "Wh"
+  },
+  "email . data center . usage . récepteur": {
+    "formule": "usage . émetteur * destinataires"
+  },
+  "fichier": {
+    "formule": {
+      "variations": [
+        {
+          "si": "taille > 0",
+          "alors": {
+            "somme": [
+              "transmission",
+              "data center"
+            ]
+          }
+        },
+        {
+          "sinon": 0
+        }
+      ]
+    },
+    "unité": "gCO2e",
+    "note": "Les terminaux ne sont pas pris en compte \n(hypothèse : le téléchargement / l'upload de fichier se fait en tâche de fond, en même temps que d'autres actions)\n"
+  },
+  "fichier . taille": {
+    "titre": "Taille du fichier",
+    "question": "Quelle est la taille du mail (en Go)?",
+    "par défaut": 1,
+    "unité": "Go"
+  },
+  "fichier . transmission": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "taille",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e"
+  },
+  "fichier . transmission . réseau": {
+    "titre": "Type de réseau utilisé",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "fichier . data center": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "fichier . data center . construction": {
+    "valeur": "construction data center",
+    "contexte": {
+      "construction data center . serveur . facteur d'allocation": "facteur allocation serveur * fichier . taille",
+      "construction data center . stockage . facteur d'allocation": 0
+    },
+    "note": "Stockage non pris en compte, considérant que le fichier peut être partagé par un grand nombre de personnes"
+  },
+  "fichier . data center . facteur allocation serveur": {
+    "formule": "streaming . data center . nombre de serveurs / streaming . data center . volume total de transfert de données / serveur . durée de vie",
+    "note": "Idem streaming"
+  },
+  "fichier . data center . usage": {
+    "valeur": "usage data center",
+    "contexte": {
+      "usage data center . consommation électricité": "consommation électricité"
+    },
+    "unité": "gCO2e",
+    "note": "La quantité de serveur dédié pour l'upload d'un fichier n'étant pas connue, \nil a été considéré par hypothèse que celle-ci est similaire à celle de la vidéo en ligne.\n"
+  },
+  "fichier . data center . usage . consommation électricité": {
+    "formule": "taille * électricité par Go en Wh / 1000 Wh/kWh",
+    "unité": "kWh"
+  },
+  "fichier . data center . usage . électricité par Go en Wh": {
+    "formule": "électricité par Go * 1000000 Wh/MWh",
+    "unité": "Wh/Go"
+  },
+  "fichier . data center . usage . électricité par Go": {
+    "formule": "streaming . data center . usage . électricité par Go",
+    "unité": "MWh/Go"
+  },
+  "publicodes-commun . intensité électricité": {
+    "titre": "Intensité carbone du mix électrique français",
+    "description": "\n> ℹ️ Cette règle provient du modèle [`@incubateur-ademe/publicodes-commun`](https://github.com/incubateur-ademe/publicodes-commun).\n\n\nIntensité moyenne, tous types de consommations confondues, année 2022.",
+    "formule": 0.052,
+    "unité": "kgCO2e/kWh",
+    "note": "Ici, on parle du mix électrique de consommation. \nLe chiffre est issu de la Base Empreinte (Electricité/2022 - mix moyen/consommation) dont la méthodologie est décrite dans la [documentation](https://prod-basecarbonesolo.ademe-dri.fr/documentation/UPLOAD_DOC_FR/).\nLa v2.6 de MicMac donnait une valeur de 12.4gCO2e/kWh pour les fournisseurs d'électricité \"verte\", mais cette valeur semble correspondre à un calcul théorique sur l'année, et non pas à un calcul réel, minute par minute.\n"
+  },
+  "électricité": {
+    "note": "FE issus de l'IEA, correspond à priori au FE de production de mix électrique"
+  },
+  "électricité . FE France": {
+    "formule": "publicodes-commun . intensité électricité * 1000 gCO2e/kgCO2e",
+    "unité": "gCO2e/kWh"
+  },
+  "électricité . FE Europe": {
+    "formule": 410.4,
+    "unité": "gCO2e/kWh"
+  },
+  "électricité . FE Chine": {
+    "formule": 871.2,
+    "unité": "gCO2e/kWh"
+  },
+  "électricité . FE USA": {
+    "formule": 547.2,
+    "unité": "gCO2e/kWh"
+  },
+  "recherche web": {
+    "titre": "Recherche sur le web",
+    "formule": {
+      "variations": [
+        {
+          "si": {
+            "toutes ces conditions": [
+              "temps de saisie > 0",
+              "taille de la requete > 0"
+            ]
+          },
+          "alors": {
+            "somme": [
+              "terminaux",
+              "transmission",
+              "data center"
+            ]
+          }
+        },
+        {
+          "sinon": 0
+        }
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "recherche web . temps de saisie": {
+    "titre": "Temps de saisie de la requête",
+    "question": "Quelle est la durée de la saisie ?",
+    "par défaut": "50 minute / 60",
+    "unité": "minute",
+    "référence": "\"Analyse comparée des impacts environnementaux de la communication par voie électronique - Volet requête web : Rapport final\"\nBioIS pour l'ADEME, 18 février 2011\n"
+  },
+  "recherche web . temps de saisie en heure": {
+    "formule": "temps de saisie / 60 minute/h",
+    "unité": "h"
+  },
+  "recherche web . taille de la requete": {
+    "titre": "Taille de la requête",
+    "question": "Quelle est la taille de la requete (en ko)?",
+    "par défaut": 16,
+    "unité": "ko",
+    "note": "Mesure Negaoctet"
+  },
+  "recherche web . taille de la requete en Mo": {
+    "formule": "taille de la requete / 1024 ko/Mo",
+    "unité": "Mo"
+  },
+  "recherche web . taille de la requete en Go": {
+    "formule": "taille de la requete / 1024 ko/Mo / 1024 Mo/Go",
+    "unité": "Go"
+  },
+  "recherche web . taille de la page": {
+    "titre": "Taille de la page de résultats",
+    "question": "Quelle est la taille de la page de résultats (en ko)?",
+    "par défaut": 144.5,
+    "unité": "ko",
+    "référence": "Basé sur la taille moyenne des pages des 10 recherches les plus effectuées en 2021 (source : google trends)\n"
+  },
+  "recherche web . taille de la page en Mo": {
+    "formule": "taille de la page / 1024 ko/Mo",
+    "unité": "Mo"
+  },
+  "recherche web . taille de la page en Go": {
+    "formule": "taille de la page / 1024 ko/Mo / 1024 Mo/Go",
+    "unité": "Go"
+  },
+  "recherche web . temps de consultation": {
+    "titre": "Temps de consultation de la page de résultat",
+    "question": "Quel est le temps de consultation de la page de résultat ?",
+    "par défaut": 1,
+    "unité": "minute",
+    "référence": "\"Analyse comparée des impacts environnementaux de la communication par voie électronique - Volet requête web : Rapport final\"\nBioIS pour l'ADEME, 18 février 2011\n"
+  },
+  "recherche web . temps de consultation en heure": {
+    "formule": "temps de consultation / 60 minute/h",
+    "unité": "h"
+  },
+  "recherche web . nombre de pages de résultats lues": {
+    "titre": "Nombre de pages de résultats consultées",
+    "question": "Quel est le nombre de page de résultats consultées pour la recherche ?",
+    "par défaut": 1,
+    "référence": "\"Analyse comparée des impacts environnementaux de la communication par voie électronique - Volet requête web : Rapport final\"\nBioIS pour l'ADEME, 18 février 2011\n"
+  },
+  "recherche web . terminaux": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "note": "Cette étape comprend : \n  - La sollicitation de l’ordinateur de l’utilisateur pendant la saisie de la requete (saisie des mots cles)\n  - La sollicitation de l’ordinateur de l’utilisateur pendant l’affichage de la page de resultats et la consultation des resultats\n"
+  },
+  "recherche web . terminaux . construction": {
+    "valeur": "construction réelle",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone"
+    }
+  },
+  "recherche web . appareil": {
+    "titre": "Appareil utilisé",
+    "avec": {
+      "ordinateur et écran": {
+        "titre": "ordinateur fixe"
+      },
+      "ordinateur portable": null,
+      "tablette": null,
+      "smartphone": null
+    },
+    "question": "Quel appareil utlisez-vous ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "ordinateur et écran",
+          "ordinateur portable",
+          "tablette",
+          "smartphone"
+        ]
+      }
+    },
+    "par défaut": "'moyenne'"
+  },
+  "recherche web . appareil . moyenne utilisation ordinateur et écran": "24%",
+  "recherche web . appareil . moyenne utilisation ordinateur portable": "24%",
+  "recherche web . appareil . moyenne utilisation tablette": "8%",
+  "recherche web . appareil . moyenne utilisation smartphone": "45%",
+  "recherche web . appareil . durée totale sollicitation": {
+    "formule": "temps de saisie en heure + temps de consultation en heure * nombre de pages de résultats lues",
+    "unité": "h"
+  },
+  "recherche web . terminaux . usage": {
+    "valeur": "usage réel",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone"
+    }
+  },
+  "recherche web . transmission": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "(taille de la requete en Go + nombre de pages de résultats lues * taille de la page en Go)",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e",
+    "note": "Cette étape comprend : \n  - La transmission des informations relatives a la requête au sein de la boucle locale et du reseau Internet\n  - La transmission des informations d'affichage de la page de résutat au sein de la boucle locale et du reseau Internet\n"
+  },
+  "recherche web . transmission . réseau": {
+    "titre": "Type de réseau utilisé",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "recherche web . data center": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e",
+    "note": "Cette étape comprend :\n  - Le traitement des informations relatives a la requete au sein du Data Center du moteur de recherche\n  - Reception et transfert des informations via le routeur et serveur d’entree du Data Center ;\n  - Transfert des informations via des switchs (ou concentrateurs) et des serveurs assurant les fonctions firewall ;\n  - Recherche des resultats de la requete par les serveurs de calculs qui consultent les donnees indexees par le moteur de recherche (hypotheses : meme caracteristiques techniques que les serveurs de messagerie). Ces serveurs ont pour mission de recuperer les documents stockes (au sein des unites de stockage du moteur de recherche) correspondant a la requete et de generer des extraits decrivant les resultats obtenus. Il est difficile d’estimer le nombre de serveurs sollicites pour cette tache. D’apres nos echanges avec notamment avec Alain Heurtebise de Messaging Architects, un ordre de grandeur de 1000 serveurs a ete retenu pour le scenario de reference.\n  - Le traitement des informations permettant le renvoi des resultats depuis le Data Center du moteur de recherche\n  - Traitement des informations fournies par les serveurs de calculs au niveau du serveur de traitement de donnees ;\n  - Transfert des informations via des switchs (ou concentrateurs) et des serveurs assurant les fonctions firewall ;\n  - Transfert des informations via le routeur et serveur d’entree du Data Center ;\n"
+  },
+  "recherche web . data center . allocation serveur par Mo": {
+    "formule": "1 / 10052100000 Mo",
+    "note": "\"Allocation par rapport au volume d'information traité par les serveurs, avec :\nQ informations traitées (Mo) = (taux de transfert des ports ethernet (Mo/s)) x 3600 x Temps d’utilisation (h/jr) x Taux moyen d’utilisation x Duree de vie en jours\nAvec :\nTaux de transfert des ports ethernet (Mo/s) : 255 Mo/s (basé sur le rapport, hypothèse pénalisante au vu des progrès réalisés depuis)\nTemps d’utilisation (h/jr) : 24 h (utilisé en permanence)\nTaux moyen d’utilisation : 25% (hypothèse rapport)\nDuree de vie en jours : 1 825 jours (5 ans)\n\nSoit, pour 1Mo d'information traitée, une règle d'allocation de :\n1/10 052 100 000\"\n"
+  },
+  "recherche web . data center . facteur d'allocation serveur": {
+    "formule": "(taille de la requete en Mo + taille de la page en Mo) * allocation serveur par Mo",
+    "référence": "\"Analyse comparée des impacts environnementaux de la communication par voie électronique - Volet requête web : Rapport final\"\nBioIS pour l'ADEME, 18 février 2011\n"
+  },
+  "recherche web . data center . construction": {
+    "valeur": "construction data center",
+    "contexte": {
+      "construction data center . serveur . facteur d'allocation": "facteur d'allocation serveur"
+    },
+    "note": "Stockage non pris en compte, considéré mutualisé entre un très grand nombre d'utilisateurs"
+  },
+  "recherche web . data center . usage": {
+    "valeur": "usage data center",
+    "contexte": {
+      "usage data center . consommation électricité": "consommation électricité"
+    },
+    "unité": "gCO2e"
+  },
+  "recherche web . data center . usage . consommation électricité": {
+    "formule": "consommation totale serveur * facteur d'allocation serveur * 1000",
+    "unité": "kWh"
+  },
+  "recherche web . data center . usage . consommation totale serveur": {
+    "formule": "consommation annuelle serveur * serveur . durée de vie"
+  },
+  "recherche web . data center . usage . consommation annuelle serveur": {
+    "formule": "serveur . puissance en mode actif * 24 h/jour * 365 jour/an / 1000 Wh/kWh * 1 Wh/W.h",
+    "unité": "kWh/an"
+  },
+  "streaming": {
+    "formule": {
+      "variations": [
+        {
+          "si": "durée > 0",
+          "alors": {
+            "somme": [
+              "terminaux",
+              "transmission",
+              "data center"
+            ]
+          }
+        },
+        {
+          "sinon": 0
+        }
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "streaming . qualité": {
+    "titre": "Qualité de la vidéo",
+    "avec": {
+      "SD": null,
+      "HD": null,
+      "ultra HD": {
+        "titre": "4K"
+      }
+    },
+    "question": "Quelle est la qualité de la vidéo ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "SD",
+          "HD",
+          "ultra HD"
+        ]
+      }
+    },
+    "par défaut": "'HD'"
+  },
+  "streaming . qualité . facteur qualité": {
+    "formule": {
+      "variations": [
+        {
+          "si": "qualité = 'SD'",
+          "alors": 0.7
+        },
+        {
+          "si": "qualité = 'HD'",
+          "alors": 3
+        },
+        {
+          "si": "qualité = 'ultra HD'",
+          "alors": 7
+        }
+      ]
+    },
+    "unité": "Go/h"
+  },
+  "streaming . durée": {
+    "titre": "Temps de visionnage",
+    "question": "Quelle est la durée de la vidéo ?",
+    "par défaut": 60,
+    "unité": "minute"
+  },
+  "streaming . durée en heure": {
+    "titre": "Temps de visionnage en heure",
+    "formule": "durée / 60 minute/h",
+    "unité": "h"
+  },
+  "streaming . taille": {
+    "titre": "Taille de la vidéo",
+    "formule": "durée en heure * qualité . facteur qualité",
+    "unité": "Go"
+  },
+  "streaming . terminaux": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "streaming . terminaux . construction": {
+    "valeur": "construction réelle",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "durée en heure",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone",
+      "moyenne utilisation TV par défaut": "appareil . moyenne utilisation TV"
+    }
+  },
+  "streaming . appareil": {
+    "titre": "Appareil utilisé",
+    "avec": {
+      "ordinateur et écran": {
+        "titre": "ordinateur fixe"
+      },
+      "ordinateur portable": null,
+      "tablette": null,
+      "smartphone": null,
+      "TV": null
+    },
+    "question": "Quel appareil utlisez-vous ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "ordinateur et écran",
+          "ordinateur portable",
+          "tablette",
+          "smartphone",
+          "TV"
+        ]
+      },
+      "par défaut": "'moyenne'"
+    }
+  },
+  "streaming . appareil . moyenne utilisation ordinateur et écran": "0%",
+  "streaming . appareil . moyenne utilisation ordinateur portable": "15%",
+  "streaming . appareil . moyenne utilisation tablette": "10%",
+  "streaming . appareil . moyenne utilisation smartphone": "5%",
+  "streaming . appareil . moyenne utilisation TV": "70%",
+  "streaming . terminaux . usage": {
+    "valeur": "usage réel",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "durée en heure",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone",
+      "moyenne utilisation TV par défaut": "appareil . moyenne utilisation TV"
+    }
+  },
+  "streaming . transmission": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "taille",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e"
+  },
+  "streaming . transmission . réseau": {
+    "titre": "Type de réseau utilisé",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "streaming . data center": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "streaming . data center . construction": {
+    "valeur": "construction data center",
+    "contexte": {
+      "construction data center . serveur . facteur d'allocation": "facteur d'allocation serveur * streaming . durée en heure"
+    },
+    "note": "Stockage négligé car divisé entre un nombre très important de visionnage"
+  },
+  "streaming . data center . construction . facteur d'allocation serveur": {
+    "formule": "nombre de serveurs / nombre d'heures de visionnage par an / serveur . durée de vie"
+  },
+  "streaming . data center . usage": {
+    "valeur": "usage data center",
+    "contexte": {
+      "usage data center . consommation électricité": "consommation électricité"
+    },
+    "unité": "gCO2e"
+  },
+  "streaming . data center . usage . consommation électricité": {
+    "formule": "taille * électricité par Go en Wh / 1000 Wh/kWh",
+    "unité": "kWh"
+  },
+  "streaming . data center . usage . électricité par Go en Wh": {
+    "formule": "électricité par Go * 1000000 Wh/MWh",
+    "unité": "Wh/Go"
+  },
+  "streaming . data center . usage . électricité par Go": {
+    "formule": "(électricité directe consommée par an + électricité indirecte consommée par an) / volume total de transfert de données",
+    "unité": "MWh/Go"
+  },
+  "streaming . data center . nombre de serveurs": {
+    "formule": "puissance installée avant PUE / serveur . puissance"
+  },
+  "streaming . data center . volume total de transfert de données": {
+    "formule": "nombre d'heures de visionnage par an * consommation de donnée moyenne par heure de visionnage"
+  },
+  "streaming . data center . puissance installée avant PUE": {
+    "formule": "(électricité directe consommée par an + électricité indirecte consommée par an) / serveur . PUE streaming * 1000000 W.h/MWh / 365 jour/an / 24 h/jour",
+    "unité": "W"
+  },
+  "streaming . électricité directe consommée par an": {
+    "formule": 94000,
+    "unité": "MWh/an",
+    "référence": "Netflix Environmental Social Governance 2019"
+  },
+  "streaming . électricité indirecte consommée par an": {
+    "formule": 357000,
+    "unité": "MWh/an",
+    "référence": "Netflix Environmental Social Governance 2019"
+  },
+  "streaming . consommation de donnée moyenne par heure de visionnage": {
+    "formule": 1.9,
+    "unité": "Go/h",
+    "référence": "\"Factcheck: What is the carbon footprint of streaming video on Netflix?\" CarbonBrief\n"
+  },
+  "streaming . nombre d'utilisateurs par an": {
+    "formule": 167000000,
+    "référence": "\"Factcheck: What is the carbon footprint of streaming video on Netflix?\" CarbonBrief\n"
+  },
+  "streaming . nombre d'heures de visionnage par an": {
+    "formule": "2 h/jour * 365 jour/an * nombre d'utilisateurs par an",
+    "note": "On a ici une hypothèse importante: les utilisateurs passeraient 2 heures sur Netflix par jour en moyenne.\n",
+    "référence": "\"Factcheck: What is the carbon footprint of streaming video on Netflix?\" CarbonBrief\n"
+  },
+  "publicodes-commun . jours par an": {
+    "titre": "Nombre de jours par an",
+    "formule": 365,
+    "unité": "jour/an",
+    "description": "> ℹ️ Cette règle provient du modèle [`@incubateur-ademe/publicodes-commun`](https://github.com/incubateur-ademe/publicodes-commun)."
+  },
+  "construction réelle": {
+    "formule": {
+      "variations": [
+        {
+          "si": "appareil par défaut = 'smartphone'",
+          "alors": "smartphone"
+        },
+        {
+          "si": "appareil par défaut = 'tablette'",
+          "alors": "tablette"
+        },
+        {
+          "si": "appareil par défaut = 'ordinateur portable'",
+          "alors": "ordinateur portable"
+        },
+        {
+          "si": "appareil par défaut = 'TV'",
+          "alors": "TV"
+        },
+        {
+          "si": "appareil par défaut = 'ordinateur et écran'",
+          "alors": "ordinateur et écran"
+        },
+        {
+          "si": "appareil par défaut = 'moyenne'",
+          "alors": "moyenne"
+        }
+      ]
+    },
+    "reference": "Les données relatives à la construction et l'amortissement des appareils sont tirées du dernier excel Negaoctet disponible dans la Base Impact.\n",
+    "unité": "gCO2e"
+  },
+  "construction réelle . moyenne": {
+    "formule": {
+      "somme": [
+        "moyenne utilisation ordinateur et écran par défaut * ordinateur et écran",
+        "moyenne utilisation ordinateur portable par défaut * ordinateur portable",
+        "moyenne utilisation tablette par défaut * tablette",
+        "moyenne utilisation smartphone par défaut * smartphone",
+        "moyenne utilisation TV par défaut * TV"
+      ]
+    }
+  },
+  "construction réelle . smartphone": {
+    "formule": "smartphone . construction * (durée en heure par défaut / smartphone . durée d'usage)"
+  },
+  "construction réelle . tablette": {
+    "formule": "tablette . construction * (durée en heure par défaut / tablette . durée d'usage)"
+  },
+  "construction réelle . ordinateur portable": {
+    "formule": "ordinateur portable . construction * (durée en heure par défaut / ordinateur portable . durée d'usage)"
+  },
+  "construction réelle . TV": {
+    "formule": "TV . construction * (durée en heure par défaut / TV . durée d'usage)"
+  },
+  "construction réelle . ordinateur et écran": {
+    "formule": "ordinateur et écran . construction * (durée en heure par défaut / ordinateur et écran . durée d'usage)"
+  },
+  "usage réel": {
+    "formule": "consommation électricité * facteur électricité",
+    "unité": "gCO2e"
+  },
+  "usage réel . facteur électricité": {
+    "formule": {
+      "variations": [
+        {
+          "si": "région = 'France'",
+          "alors": "électricité . FE France"
+        },
+        {
+          "si": "région = 'Europe'",
+          "alors": "électricité . FE Europe"
+        },
+        {
+          "si": "région = 'Chine'",
+          "alors": "électricité . FE Chine"
+        },
+        {
+          "si": "région = 'USA'",
+          "alors": "électricité . FE USA"
+        }
+      ]
+    },
+    "unité": "gCO2e/kWh"
+  },
+  "usage réel . région": {
+    "titre": "Région d'utilisation du terminal",
+    "avec": {
+      "France": null,
+      "Europe": null,
+      "Chine": null,
+      "USA": null
+    },
+    "question": "Dans quelle zone géographique est utilisé le terminal ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "France",
+          "Europe",
+          "Chine",
+          "USA"
+        ]
+      }
+    },
+    "par défaut": "'France'"
+  },
+  "usage réel . consommation électricité": {
+    "formule": "consommation électricité par heure * durée en heure par défaut / 1000 W.h/kWh",
+    "unité": "kWh"
+  },
+  "usage réel . consommation électricité par heure": {
+    "formule": {
+      "variations": [
+        {
+          "si": "appareil par défaut = 'smartphone'",
+          "alors": "acv . smartphone . consommation en mode actif"
+        },
+        {
+          "si": "appareil par défaut = 'tablette'",
+          "alors": "acv . tablette . consommation en mode actif"
+        },
+        {
+          "si": "appareil par défaut = 'ordinateur portable'",
+          "alors": "acv . ordinateur portable . consommation en mode actif"
+        },
+        {
+          "si": "appareil par défaut = 'ordinateur et écran'",
+          "alors": "ordinateur et écran . consommation en mode actif"
+        },
+        {
+          "si": "appareil par défaut = 'TV'",
+          "alors": "acv . TV . consommation en mode actif"
+        },
+        {
+          "sinon": "consommation en mode actif moyenne"
+        }
+      ]
+    },
+    "unité": "W"
+  },
+  "usage réel . consommation en mode actif moyenne": {
+    "formule": {
+      "somme": [
+        "moyenne utilisation ordinateur et écran par défaut * ordinateur et écran . consommation en mode actif",
+        "moyenne utilisation ordinateur portable par défaut * acv . ordinateur portable . consommation en mode actif",
+        "moyenne utilisation tablette par défaut * acv . tablette . consommation en mode actif",
+        "moyenne utilisation smartphone par défaut * acv . smartphone . consommation en mode actif",
+        "moyenne utilisation TV par défaut * acv . TV . consommation en mode actif"
+      ]
+    }
+  },
+  "appareil par défaut": {
+    "par défaut": "'moyenne'"
+  },
+  "durée en heure par défaut": {
+    "par défaut": 0,
+    "unité": "h"
+  },
+  "moyenne utilisation ordinateur et écran par défaut": {
+    "par défaut": "0%"
+  },
+  "moyenne utilisation ordinateur portable par défaut": {
+    "par défaut": "0%"
+  },
+  "moyenne utilisation tablette par défaut": {
+    "par défaut": "0%"
+  },
+  "moyenne utilisation smartphone par défaut": {
+    "par défaut": "0%"
+  },
+  "moyenne utilisation TV par défaut": {
+    "par défaut": "0%"
+  },
+  "smartphone": null,
+  "smartphone . construction": {
+    "formule": {
+      "somme": [
+        "acv . smartphone . carbone . fabrication",
+        "acv . smartphone . carbone . distribution",
+        "acv . smartphone . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "smartphone . durée d'usage": {
+    "formule": "publicodes-commun . jours par an * durée de vie * profil utilisation",
+    "unité": "h"
+  },
+  "smartphone . durée de vie": {
+    "titre": "Durée de vie smartphone",
+    "question": "Quelle est la durée de vie du smartphone ?",
+    "unité": "an",
+    "par défaut": "acv . smartphone . durée de vie théorique"
+  },
+  "smartphone . profil utilisation": {
+    "titre": "Profil d'utilisation smartphone",
+    "question": "Quelle est le profil d'utilisation du smartphone ?",
+    "unité": "h/jour",
+    "par défaut": "acv . smartphone . profil utilisation théorique"
+  },
+  "tablette": null,
+  "tablette . construction": {
+    "formule": {
+      "somme": [
+        "acv . tablette . carbone . fabrication",
+        "acv . tablette . carbone . distribution",
+        "acv . tablette . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "tablette . durée d'usage": {
+    "formule": "publicodes-commun . jours par an * durée de vie * profil utilisation",
+    "unité": "h"
+  },
+  "tablette . durée de vie": {
+    "titre": "Durée de vie tablette",
+    "question": "Quelle est la durée de vie de la tablette ?",
+    "unité": "an",
+    "par défaut": "acv . tablette . durée de vie théorique"
+  },
+  "tablette . profil utilisation": {
+    "titre": "Profil d'utilisation tablette",
+    "question": "Quelle est le profil d'utilisation de la tablette ?",
+    "unité": "h/jour",
+    "par défaut": "acv . tablette . profil utilisation théorique"
+  },
+  "ordinateur portable": null,
+  "ordinateur portable . construction": {
+    "formule": {
+      "somme": [
+        "acv . ordinateur portable . carbone . fabrication",
+        "acv . ordinateur portable . carbone . distribution",
+        "acv . ordinateur portable . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "ordinateur portable . durée d'usage": {
+    "formule": "publicodes-commun . jours par an * durée de vie * profil utilisation",
+    "unité": "h"
+  },
+  "ordinateur portable . durée de vie": {
+    "titre": "Durée de vie ordinateur portable",
+    "question": "Quelle est la durée de vie de l'ordinateur portable ?",
+    "unité": "an",
+    "par défaut": "acv . ordinateur portable . durée de vie théorique"
+  },
+  "ordinateur portable . profil utilisation": {
+    "titre": "Profil d'utilisation ordinateur portable",
+    "question": "Quelle est le profil d'utilisation de l'ordinateur portable ?",
+    "unité": "h/jour",
+    "par défaut": "acv . ordinateur portable . profil utilisation théorique"
+  },
+  "TV": null,
+  "TV . construction": {
+    "formule": {
+      "somme": [
+        "acv . TV . carbone . fabrication",
+        "acv . TV . carbone . distribution",
+        "acv . TV . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "TV . durée d'usage": {
+    "formule": "publicodes-commun . jours par an * durée de vie * profil utilisation",
+    "unité": "h"
+  },
+  "TV . durée de vie": {
+    "titre": "Durée de vie TV",
+    "question": "Quelle est la durée de vie de la TV ?",
+    "unité": "an",
+    "par défaut": "acv . TV . durée de vie théorique"
+  },
+  "TV . profil utilisation": {
+    "titre": "Profil d'utilisation TV",
+    "question": "Quelle est le profil d'utilisation de la TV ?",
+    "unité": "h/jour",
+    "par défaut": "acv . TV . profil utilisation théorique"
+  },
+  "ordinateur fixe": null,
+  "ordinateur fixe . construction": {
+    "formule": {
+      "somme": [
+        "acv . ordinateur fixe . carbone . fabrication",
+        "acv . ordinateur fixe . carbone . distribution",
+        "acv . ordinateur fixe . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "écran": null,
+  "écran . construction": {
+    "formule": {
+      "somme": [
+        "acv . écran . carbone . fabrication",
+        "acv . écran . carbone . distribution",
+        "acv . écran . carbone . fin de vie"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "ordinateur et écran": null,
+  "ordinateur et écran . construction": {
+    "formule": {
+      "somme": [
+        "ordinateur fixe . construction",
+        "écran . construction"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "ordinateur et écran . durée d'usage": {
+    "formule": "publicodes-commun . jours par an * durée de vie * profil utilisation",
+    "unité": "h"
+  },
+  "ordinateur et écran . durée de vie": {
+    "titre": "Durée de vie ordinateur et écran",
+    "question": "Quelle est la durée de vie de votre ordinateur et écran ?",
+    "unité": "an",
+    "par défaut": {
+      "moyenne": [
+        "acv . ordinateur fixe . durée de vie théorique",
+        "acv . écran . durée de vie théorique"
+      ]
+    }
+  },
+  "ordinateur et écran . profil utilisation": {
+    "titre": "Profil d'utilisation ordinateur et écran",
+    "question": "Quelle est le profil d'utilisation de l'ordinateur et écran ?",
+    "unité": "h/jour",
+    "par défaut": "ordinateur et écran . profil utilisation théorique"
+  },
+  "ordinateur et écran . profil utilisation théorique": {
+    "formule": {
+      "moyenne": [
+        "acv . ordinateur fixe . profil utilisation théorique",
+        "acv . écran . profil utilisation théorique"
+      ]
+    },
+    "unité": "h/jour"
+  },
+  "ordinateur et écran . consommation en mode actif": {
+    "formule": {
+      "somme": [
+        "acv . ordinateur fixe . consommation en mode actif",
+        "acv . écran . consommation en mode actif"
+      ]
+    },
+    "unité": "W"
+  },
+  "transmission par défaut": {
+    "formule": "taille par défaut * facteur réseau",
+    "unité": "gCO2e"
+  },
+  "transmission par défaut . taille par défaut": {
+    "par défaut": 0,
+    "unité": "Go"
+  },
+  "transmission par défaut . réseau par défaut": {
+    "par défaut": "'fixe FR'"
+  },
+  "transmission par défaut . facteur réseau": {
+    "formule": {
+      "variations": [
+        {
+          "si": "réseau par défaut = 'fixe FR'",
+          "alors": "facteur réseau fixe FR"
+        },
+        {
+          "si": "réseau par défaut = 'mobile FR'",
+          "alors": "facteur réseau mobile FR"
+        },
+        {
+          "si": "réseau par défaut = 'fixe EU'",
+          "alors": "facteur réseau fixe EU"
+        },
+        {
+          "si": "réseau par défaut = 'mobile EU'",
+          "alors": "facteur réseau mobile EU"
+        }
+      ]
+    },
+    "unité": "gCO2e/Go"
+  },
+  "transmission par défaut . facteur réseau fixe FR": {
+    "formule": 9.26934695867389,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "transmission par défaut . facteur réseau mobile FR": {
+    "formule": 24.6836791969497,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "transmission par défaut . facteur réseau fixe EU": {
+    "formule": 30.8081869990301,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "transmission par défaut . facteur réseau mobile EU": {
+    "formule": 96.0097311973246,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "transmission par défaut . facteur réseau fixe FR hors box": {
+    "formule": 2.59,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "transmission par défaut . facteur réseau fixe EU hors box": {
+    "formule": 14.4,
+    "unité": "gCO2e/Go",
+    "référence": "source Negaoctet"
+  },
+  "visio": {
+    "formule": {
+      "variations": [
+        {
+          "si": "durée > 0",
+          "alors": {
+            "somme": [
+              "terminaux",
+              "transmission",
+              "data center"
+            ]
+          }
+        },
+        {
+          "sinon": 0
+        }
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "visio . qualité": {
+    "avec": {
+      "audio": null,
+      "SD": null,
+      "HD": null,
+      "ultra HD": {
+        "titre": "4K"
+      }
+    },
+    "titre": "qualité de la vidéo",
+    "question": "Quelle est la qualité de la vidéo ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "audio",
+          "SD",
+          "HD",
+          "ultra HD"
+        ]
+      }
+    },
+    "par défaut": "'SD'"
+  },
+  "visio . qualité . facteur qualité": {
+    "formule": {
+      "variations": [
+        {
+          "si": "qualité = 'audio'",
+          "alors": "168 / 1024"
+        },
+        {
+          "si": "qualité = 'SD'",
+          "alors": 0.7
+        },
+        {
+          "si": "qualité = 'HD'",
+          "alors": 3
+        },
+        {
+          "si": "qualité = 'ultra HD'",
+          "alors": 7
+        }
+      ]
+    },
+    "unité": "Go/h"
+  },
+  "visio . durée": {
+    "titre": "Temps de visionnage",
+    "question": "Quelle est la durée de la vidéo ?",
+    "par défaut": 60,
+    "unité": "minute"
+  },
+  "visio . durée en heure": {
+    "formule": "durée / 60 minute/h",
+    "unité": "h"
+  },
+  "visio . taille": {
+    "titre": "Taille de la vidéo",
+    "formule": "durée en heure * qualité . facteur qualité",
+    "unité": "Go"
+  },
+  "visio . emplacements": {
+    "titre": "Nombre d'appareils connectés",
+    "question": "Combien d'appareils sont connectées à la visio ?",
+    "par défaut": 2
+  },
+  "visio . terminaux": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "visio . appareil . durée totale sollicitation": {
+    "formule": "emplacements * durée en heure"
+  },
+  "visio . terminaux . construction": {
+    "valeur": "construction réelle",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone",
+      "moyenne utilisation TV par défaut": "appareil . moyenne utilisation TV"
+    }
+  },
+  "visio . appareil": {
+    "titre": "Appareil utilisé",
+    "avec": {
+      "ordinateur et écran": {
+        "titre": "ordinateur fixe"
+      },
+      "ordinateur portable": null,
+      "tablette": null,
+      "smartphone": null,
+      "TV": null
+    },
+    "question": "Quel appareil utlisez-vous ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "ordinateur et écran",
+          "ordinateur portable",
+          "tablette",
+          "smartphone",
+          "TV"
+        ]
+      },
+      "par défaut": "'moyenne'"
+    }
+  },
+  "visio . appareil . moyenne utilisation ordinateur et écran": "0%",
+  "visio . appareil . moyenne utilisation ordinateur portable": "100%",
+  "visio . appareil . moyenne utilisation tablette": "0%",
+  "visio . appareil . moyenne utilisation smartphone": "0%",
+  "visio . appareil . moyenne utilisation TV": "0%",
+  "visio . terminaux . usage": {
+    "valeur": "usage réel",
+    "contexte": {
+      "appareil par défaut": "appareil",
+      "durée en heure par défaut": "appareil . durée totale sollicitation",
+      "moyenne utilisation ordinateur et écran par défaut": "appareil . moyenne utilisation ordinateur et écran",
+      "moyenne utilisation ordinateur portable par défaut": "appareil . moyenne utilisation ordinateur portable",
+      "moyenne utilisation tablette par défaut": "appareil . moyenne utilisation tablette",
+      "moyenne utilisation smartphone par défaut": "appareil . moyenne utilisation smartphone",
+      "moyenne utilisation TV par défaut": "appareil . moyenne utilisation TV"
+    }
+  },
+  "visio . transmission": {
+    "valeur": "transmission par défaut",
+    "contexte": {
+      "transmission par défaut . taille par défaut": "emplacements * taille",
+      "transmission par défaut . réseau par défaut": "réseau"
+    },
+    "unité": "gCO2e"
+  },
+  "visio . transmission . réseau": {
+    "titre": "Type de réseau utilisé",
+    "avec": {
+      "fixe FR": {
+        "titre": "Réseau fixe en France"
+      },
+      "mobile FR": {
+        "titre": "Réseau mobile en France"
+      },
+      "fixe EU": {
+        "titre": "Réseau fixe en Europe"
+      },
+      "mobile EU": {
+        "titre": "Réseau mobile en Europe"
+      }
+    },
+    "question": "Utilisez-vous le réseau fixe ou mobile ?",
+    "formule": {
+      "une possibilité": {
+        "choix obligatoire": "oui",
+        "possibilités": [
+          "fixe FR",
+          "mobile FR",
+          "fixe EU",
+          "mobile EU"
+        ]
+      }
+    },
+    "par défaut": "'fixe FR'"
+  },
+  "visio . data center": {
+    "formule": {
+      "somme": [
+        "construction",
+        "usage"
+      ]
+    },
+    "unité": "gCO2e"
+  },
+  "visio . data center . construction": {
+    "valeur": "construction data center",
+    "contexte": {
+      "construction data center . serveur . facteur d'allocation": "facteur allocation serveur * visio . durée en heure"
+    },
+    "note": "Stockage négligé car pas d'enregistrement considéré.\nIci, sont reprises les données issues des études sur le streaming.\n"
+  },
+  "visio . data center . facteur allocation serveur": {
+    "formule": "streaming . data center . construction . facteur d'allocation serveur",
+    "note": "Idem streaming"
+  },
+  "visio . data center . usage": {
+    "valeur": "usage data center",
+    "contexte": {
+      "usage data center . consommation électricité": "consommation électricité"
+    },
+    "unité": "gCO2e"
+  },
+  "visio . data center . usage . consommation électricité": {
+    "formule": "taille * électricité par Go / 1000 Wh/kWh",
+    "unité": "kWh"
+  },
+  "visio . data center . usage . électricité par Go": {
+    "formule": "streaming . data center . usage . électricité par Go * 1000000 Wh/MWh",
+    "unité": "Wh/Go",
+    "note": "chiffre issu du streaming ici"
+  },
+  "publicodes-commun": null
+}

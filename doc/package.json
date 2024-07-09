@@ -1,8 +1,8 @@
 {
-  "name": "publicodes-negaoctet-react-doc",
+  "name": "publicodes-acv-numerique-react-doc",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://incubateur-ademe.github.io/publicodes-negaoctet",
+  "homepage": "https://incubateur-ademe.github.io/publicodes-acv-numerique",
   "scripts": {
     "start": "PUBLIC_URL=http://localhost:3000 react-scripts start",
     "build": "react-scripts build",

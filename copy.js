@@ -1,6 +1,6 @@
 import { copyFileSync } from 'fs'
 
-const srcPath = 'publicodes-negaoctet.model.json'
+const srcPath = 'publicodes-acv-numerique.model.json'
 const destPath = `./doc/src/${srcPath}`
 
 copyFileSync(srcPath, destPath)

@@ -1,5 +1,5 @@
 {
-  "name": "@incubateur-ademe/publicodes-negaoctet",
+  "name": "@incubateur-ademe/publicodes-acv-numerique",
   "version": "1.2.0",
   "description": "Modèle Publicodes de la base de données NegaOctet",
   "type": "module",
@@ -7,20 +7,20 @@
   "module": "index.js",
   "types": "index.d.ts",
   "files": [
-    "publicodes-negaoctet.model.json",
+    "publicodes-acv-numerique.model.json",
     "index.js",
     "index.d.ts"
   ],
   "scripts": {
-    "clean": "rm -r publicodes-negaoctet.model.json index.d.ts index.js",
+    "clean": "rm -r publicodes-acv-numerique.model.json index.d.ts index.js",
     "build": "node build.js",
-    "build:watch": "nodemon -e \"publicodes\" --watch rules/ build.js & nodemon --watch publicodes-negaoctet.model.json copy.js",
-    "doc": "yarn run build && cp publicodes-negaoctet.model.json doc/src && cd doc && yarn run start",
-    "doc:build": "yarn run build && cp publicodes-negaoctet.model.json doc/src && cd doc && yarn run build",
+    "build:watch": "nodemon -e \"publicodes\" --watch rules/ build.js & nodemon --watch publicodes-acv-numerique.model.json copy.js",
+    "doc": "yarn run build && cp publicodes-acv-numerique.model.json doc/src && cd doc && yarn run start",
+    "doc:build": "yarn run build && cp publicodes-acv-numerique.model.json doc/src && cd doc && yarn run build",
     "format": "prettier . --write"
   },
-  "repository": "git@github.com:incubateur-ademe/publicodes-negaoctet.git",
-  "homepage": "https://github.com/incubateur-ademe/publicodes-negaoctet#readme",
+  "repository": "git@github.com:incubateur-ademe/publicodes-acv-numerique.git",
+  "homepage": "https://github.com/incubateur-ademe/publicodes-acv-numerique#readme",
   "keywords": [
     "publicodes",
     "NegaOctet",
@@ -28,7 +28,7 @@
     "co2"
   ],
   "bugs": {
-    "url": "https://github.com/incubateur-ademe/publicodes-negaoctet/issues"
+    "url": "https://github.com/incubateur-ademe/publicodes-acv-numerique/issues"
   },
   "authors": [
     "Clément Auger <clement.auger@beta.gouv.fr>",

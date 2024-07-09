@@ -1,5 +1,5 @@
 {
-  "name": "@incubateur-ademe/publicodes-negaoctet-api",
+  "name": "@incubateur-ademe/publicodes-acv-numerique-api",
   "version": "0.1.0",
   "description": "API du modèle Publicodes de la base de données NegaOctet",
   "type": "module",
@@ -11,10 +11,10 @@
   "scripts": {
     "build": "node index.js"
   },
-  "repository": "git@github.com:incubateur-ademe/publicodes-negaoctet.git",
-  "homepage": "https://github.com/incubateur-ademe/publicodes-negaoctet#readme",
+  "repository": "git@github.com:incubateur-ademe/publicodes-acv-numerique.git",
+  "homepage": "https://github.com/incubateur-ademe/publicodes-acv-numerique#readme",
   "bugs": {
-    "url": "https://github.com/incubateur-ademe/publicodes-negaoctet/issues"
+    "url": "https://github.com/incubateur-ademe/publicodes-acv-numerique/issues"
   },
   "authors": [
     "Emile Rolley <emile.rolley@tuta.io>"

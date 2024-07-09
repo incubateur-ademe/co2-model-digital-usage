@@ -4,7 +4,7 @@ import { disabledLogger } from '@publicodes/tools'
 import Engine from 'publicodes'
 
 const srcFiles = 'rules/**/*.publicodes'
-const destPath = 'publicodes-negaoctet.model.json'
+const destPath = 'publicodes-acv-numerique.model.json'
 
 const model = getModelFromSource(srcFiles, { verbose: true })
 
